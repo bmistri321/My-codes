@@ -500,21 +500,21 @@
         <div class='pm-content pm-story'>
           <p class='pm-story-text'>I was born and raised in Ashoknagar, an urban town near Kolkata. From a very young age, I was deeply drawn to anything creative. Long before I knew what digital design was, I was constantly working with my hands making handmade crafts, painting, and drawing. For me, creativity wasn&#39;t just a hobby; it was my primary way of expressing myself and understanding the world around me. Those early days spent sketching and crafting from scratch laid the artistic foundation for the way I look at design today.</p>
           <div class='pm-photos'>
-            <div class='pm-photo'><img alt='About photo 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-1.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-2.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-3.webp'/></div>
           </div>
           <p class='pm-story-text'>My academic journey was a process of continuous exploration. A pivotal shift happened back in 2015, while I was in the 10th standard, when I got my first PC. As I spent more time online, I constantly ran into frustrating user issues and clunky websites. Because I&#39;ve always been someone who wants to fix things, I started looking into how I could solve these digital roadblocks myself. That curiosity led me directly to the world of UI/UX. Later, as I attended West Bengal State University (WBSU) and graduated with a degree in Arts, I realized I could perfectly combine my traditional artistic background with this new problem-solving mindset to fix the very issues I faced as a user. From there, I dove headfirst into learning the craft.</p>
           <div class='pm-photos'>
-            <div class='pm-photo'><img alt='About photo 4' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 5' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 6' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 4' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-4.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 5' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-5.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 6' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-6.webp'/></div>
           </div>
           <p class='pm-story-text'>Today, I bring that same childhood creativity and &quot;fixer&quot; mentality into my career as a UI/UX Designer. With over five years of professional experience working remotely, I specialize in transforming complex problems into seamless, user-centric digital products. My day-to-day focus ranges from architecting large-scale, scalable design systems in Figma for robust SaaS platforms to exploring innovative ways AI can streamline workflows for digital managers.</p>
           <div class='pm-photos'>
-            <div class='pm-photo'><img alt='About photo 7' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 8' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
-            <div class='pm-photo'><img alt='About photo 9' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 7' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-7.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 8' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-8.webp'/></div>
+            <div class='pm-photo'><img alt='About photo 9' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-9.webp'/></div>
           </div>
         </div>
       </div>
@@ -687,7 +687,7 @@
             <div class='fcs-meta-item'>
               <span class='fcs-meta-label'>Tools</span>
               <div class='fcs-tools'>
-                <img alt='Figma' src='https://www.figma.com/api/mcp/asset/ec1b4cc5-9484-4417-bbfe-40b10f3d83f2'/>
+                <img alt='Figma' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
                 <img alt='Tool' src='https://www.figma.com/api/mcp/asset/7d278539-b692-4a76-a116-c67221e4e74f'/>
                 <img alt='Tool' src='https://www.figma.com/api/mcp/asset/e67d3916-4e68-4bb3-9478-43a8b5e73d4f'/>
               </div>
