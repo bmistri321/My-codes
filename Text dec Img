@@ -1,0 +1,8 @@
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>RBG case study</div>
+          <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          <div class='fcs-image'>
+            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
