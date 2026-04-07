@@ -1,0 +1,6 @@
+<!-- Screen label -->
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>1</div>
+          <div class='fcs-screen-title'>Home screen</div>
+          <p class='fcs-screen-desc'>Post module, User can see all the live posts, and also can take necessary actions. plus create new post</p>
+        </div>
