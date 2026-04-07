@@ -1,1 +1,1097 @@
-# My-codes
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+
+  <!-- Dynamic title per page type -->
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <title>Bishal Mistri &#8212; Product Designer</title>
+    <meta content='Bishal Mistri is a Product Designer contributing to a better future by solving one problem at a time.' name='description'/>
+  <b:elseif cond='data:blog.pageType == &quot;static_page&quot;'/>
+    <title><data:blog.pageName/> &#8212; Bishal Mistri</title>
+    <meta content='Bishal Mistri — Product Designer.' name='description'/>
+  <b:else/>
+    <title>Bishal Mistri</title>
+    <meta content='Bishal Mistri — Product Designer.' name='description'/>
+  </b:if>
+  <meta content='website' property='og:type'/>
+  <meta content='Bishal Mistri' name='author'/>
+
+  <b:skin><![CDATA[]]></b:skin>
+
+  <!-- Preload key TTHoves weights to prevent flash of unstyled text -->
+  <link as='font' crossorigin='anonymous' href='https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2' rel='preload' type='font/woff2'/>
+  <link as='font' crossorigin='anonymous' href='https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2' rel='preload' type='font/woff2'/>
+
+  <!-- TTHoves font served via jsDelivr from github.com/bmistri321/web-fonts -->
+
+  <style>
+
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: normal; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: italic; font-display: block; }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; font-family: &#39;TTHoves&#39; !important; }
+
+    /* &#9472;&#9472; SKELETON LOADER &#9472;&#9472; */
+    @keyframes pm-skeleton-pulse {
+      0%   { background-color: hsl(200, 15%, 82%); }
+      100% { background-color: hsl(200, 15%, 95%); }
+    }
+    .pm-hero-photo .pm-img-wrap {
+      position: relative; display: block; width: 100%;
+      aspect-ratio: 438 / 559; overflow: hidden;
+    }
+    .pm-hero-photo .pm-img-wrap::before {
+      content: &#39;&#39;; position: absolute; inset: 0;
+      background-color: hsl(200, 15%, 85%);
+      animation: pm-skeleton-pulse 1s linear infinite alternate; z-index: 1;
+    }
+    .pm-hero-photo .pm-img-wrap.pm-img-loaded::before {
+      animation: none; opacity: 0; transition: opacity 0.3s ease;
+    }
+    .pm-hero-photo .pm-img-wrap img {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: 2;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    body {
+      font-family: &#39;TTHoves&#39; !important;
+      background: #ffffff; color: #000000;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .pm-page { display: flex; flex-direction: column; align-items: center; padding: 100px 0 60px; }
+    .pm-inner { width: 100%; max-width: 1026px; display: flex; flex-direction: column; gap: 96px; }
+
+    /* HERO */
+    .pm-hero { display: flex; gap: 40px; align-items: stretch; width: 100%; }
+    .pm-hero-text { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 50px; justify-content: center; }
+    .pm-hero-name { font-weight: 400; font-size: 20px; line-height: 26px; color: #000; }
+    .pm-hero-headline { font-weight: 600; font-size: 54px; line-height: 1.05; color: #000; }
+    .pm-hero-photo { flex: 1 1 0; min-width: 0; overflow: visible; }
+    .pm-hero-photo img { width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 438 / 559; }
+
+    /* SECTION ROW */
+    .pm-row { display: flex; gap: 80px; align-items: flex-start; width: 100%; }
+    .pm-label { flex: 0 0 200px; max-width: 200px; font-weight: 600; font-size: 24px; line-height: 32px; color: #000; }
+    .pm-content { flex: 1 0 0; display: flex; flex-direction: column; }
+
+    /* ARROW */
+    .pm-arrow { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; flex-shrink: 0; transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1); }
+    .pm-arrow svg { width: 24px; height: 24px; }
+    .pm-project-link:hover .pm-arrow,
+    .pm-portfolio-link:hover .pm-arrow,
+    .pm-resume-link:hover .pm-arrow,
+    .pm-email-row:hover .pm-arrow,
+    .pm-cs-link:hover .pm-arrow,
+    .pm-social-link:hover .pm-arrow { transform: translateX(10px); }
+
+    /* PROJECTS */
+    .pm-project-item { padding-bottom: 48px; }
+    .pm-project-link { display: inline-flex; flex-direction: column; gap: 6px; }
+    .pm-project-title-row { display: flex; align-items: center; gap: 12px; }
+    .pm-project-title { font-weight: 600; font-size: 19px; line-height: 26px; color: #000; }
+    .pm-project-meta { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; }
+    .pm-portfolio-link { display: inline-flex; align-items: center; gap: 12px; }
+    .pm-portfolio-link .pm-link-text { font-weight: 600; font-size: 20px; line-height: 26px; color: #000; }
+
+    /* CASE STUDY */
+    .pm-cs-item { display: flex; flex-direction: column; gap: 48px; padding-bottom: 48px; }
+    .pm-cs-item:last-child { padding-bottom: 0; }
+    .pm-cs-link { display: inline-flex; flex-direction: column; gap: 6px; }
+    .pm-cs-title-row { display: flex; align-items: center; gap: 12px; }
+    .pm-cs-title { font-weight: 600; font-size: 19px; line-height: 26px; color: #000; }
+    .pm-cs-meta { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; }
+
+    /* RESUME */
+    .pm-resume-link { display: inline-flex; align-items: center; gap: 12px; }
+    .pm-resume-link span { font-weight: 600; font-size: 20px; line-height: 26px; color: #000; }
+    .pm-resume-desc { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; margin-top: 10px; }
+
+    /* CONTACT */
+    .pm-phone { font-weight: 600; font-size: 20px; line-height: 26px; color: #000; padding-bottom: 48px; }
+    .pm-email-block { display: flex; flex-direction: column; gap: 10px; padding-bottom: 48px; }
+    .pm-email-row { display: flex; align-items: center; gap: 12px; }
+    .pm-email-label { font-weight: 600; font-size: 20px; line-height: 26px; color: #000; }
+    .pm-email-desc { font-weight: 400; font-size: 20px; line-height: 26px; color: #000; }
+    .pm-socials-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+    .pm-social-col { display: flex; flex-direction: column; }
+    .pm-social-link { display: inline-flex; align-items: center; gap: 12px; padding-bottom: 24px; }
+    .pm-social-link:last-child { padding-bottom: 0; }
+    .pm-social-link .pm-link-text { font-weight: 600; font-size: 20px; line-height: 26px; color: #000; }
+
+    /* STORY */
+    .pm-story { display: flex; flex-direction: column; gap: 48px; }
+    .pm-story-text { font-weight: 400; font-size: 20px; line-height: 26px; color: #000; }
+
+    /* PHOTO GRID */
+    .pm-photos { display: flex; gap: 30px; align-items: flex-start; width: 100%; }
+    .pm-photo { flex: 1 0 0; overflow: hidden; }
+    .pm-photo img { width: 100%; aspect-ratio: 220 / 275; object-fit: cover; display: block; }
+
+    /* LIGHTBOX */
+    .pm-pg-image { cursor: zoom-in; }
+
+    .pm-lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: rgba(0, 0, 0, 0.4);
+      align-items: center;
+      justify-content: center;
+    }
+    .pm-lightbox.active { display: flex; }
+
+    .pm-lightbox-inner {
+      position: relative;
+      max-width: 90vw;
+      max-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pm-lightbox-inner img {
+      max-width: 90vw;
+      max-height: 88vh;
+      object-fit: contain;
+      display: block;
+      border-radius: 4px;
+    }
+
+    /* Close button &#8212; outside top-right of image */
+    .pm-lightbox-close {
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #000;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s ease, transform 0.2s ease;
+      flex-shrink: 0;
+    }
+    .pm-lightbox-close:hover {
+      background: #333;
+      transform: scale(1.1) rotate(90deg);
+    }
+    .pm-lightbox-close svg {
+      width: 16px;
+      height: 16px;
+      stroke: #fff;
+      fill: none;
+    }
+
+    /* Prev / Next arrows &#8212; outside image sides, desktop/tablet only */
+    .pm-lightbox-prev,
+    .pm-lightbox-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #000;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s ease, transform 0.2s ease;
+      flex-shrink: 0;
+      opacity: 0.85;
+    }
+    .pm-lightbox-prev { left: -60px; }
+    .pm-lightbox-next { right: -60px; }
+    .pm-lightbox-prev:hover,
+    .pm-lightbox-next:hover {
+      background: #333;
+      opacity: 1;
+      transform: translateY(-50%) scale(1.1);
+    }
+    .pm-lightbox-prev svg,
+    .pm-lightbox-next svg {
+      width: 18px;
+      height: 18px;
+      stroke: #fff;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    /* Hide arrows on mobile */
+    @media (max-width: 480px) {
+      .pm-lightbox-prev, .pm-lightbox-next { display: none; }
+    }
+
+    /* STICKY LABEL &#8212; label stays in view while section scrolls */
+    .pm-row--sticky { align-items: flex-start; }
+    .pm-row--sticky .pm-label {
+      position: sticky;
+      top: 100px; /* offset from top &#8212; accounts for page padding */
+      align-self: flex-start;
+    }
+
+    /* PLAYGROUND */
+    .pm-pg-item { display: flex; flex-direction: column; gap: 16px; padding-bottom: 48px; }
+    .pm-pg-item:last-child { padding-bottom: 0; }
+    .pm-pg-title { font-weight: 600; font-size: 19px; line-height: 26px; color: #000; }
+    .pm-pg-desc  { font-weight: 400; font-size: 18px; line-height: 28px; color: #000; margin-top: 8px; }
+    .pm-pg-image { width: 100%; overflow: hidden; background: #f4f4f4; }
+    .pm-pg-image img { width: 100%; height: auto; display: block; }
+
+    /* FRIENDER CASE STUDY PAGE */
+    .fcs-wrap { width: 100%; display: flex; flex-direction: column; gap: 96px; }
+    .fcs-wrap * { font-family: &#39;TTHoves&#39; !important; box-sizing: border-box; }
+    .fcs-title { font-size: 50px; font-weight: 400; line-height: 1.1; color: #000; letter-spacing: -1px; }
+    .fcs-meta { display: flex; gap: 40px; align-items: flex-start; }
+    .fcs-meta-col { display: flex; flex-direction: column; gap: 30px; width: 276px; }
+    .fcs-meta-item { display: flex; flex-direction: column; gap: 10px; }
+    .fcs-meta-label { font-size: 16px; font-weight: 500; color: #1a1a1a; letter-spacing: -0.48px; }
+    .fcs-meta-value { font-size: 16px; font-weight: 400; color: #1a1a1a; letter-spacing: -0.48px; }
+    .fcs-tools { display: flex; gap: 10px; align-items: center; }
+    .fcs-tools img { width: 22px; height: 22px; display: block; }
+    .fcs-item { display: flex; flex-direction: column; gap: 30px; }
+    .fcs-item-title { font-size: 20px; font-weight: 600; color: #000; line-height: 26px; }
+    .fcs-desc-single { font-size: 18px; font-weight: 400; line-height: 26px; color: #000; }
+    .fcs-desc-2col { display: flex; gap: 100px; align-items: flex-start; }
+    .fcs-desc-2col p { flex: 1; font-size: 18px; font-weight: 400; line-height: 26px; color: #000; text-align: justify; margin: 0; }
+    .fcs-desc-stack { display: flex; flex-direction: column; gap: 30px; }
+    .fcs-desc-stack p { font-size: 18px; font-weight: 400; line-height: 26px; color: #000; margin: 0; }
+    .fcs-image { width: 100%; height: auto; display: block; }
+    .fcs-image img { width: 100%; height: auto; display: block; }
+    .fcs-image-empty { width: 100%; height: 48px; background: #f4f4f4; }
+    @media (max-width: 768px) {
+      .fcs-title { font-size: 32px; }
+      .fcs-meta { flex-direction: column; }
+      .fcs-desc-2col { flex-direction: column; gap: 24px; }
+    }
+
+    /* BRIDGE TEXT + SCREEN LABEL */
+    .fcs-bridge { text-align: center; font-size: 34px; font-weight: 400; letter-spacing: -1.02px; line-height: 1.3; }
+    .fcs-bridge u { font-weight: 600; text-underline-offset: 3px; }
+    .fcs-screen-label { display: flex; flex-direction: column; gap: 10px; }
+    .fcs-screen-num { width: 30px; height: 30px; border: 0.5px solid #606060; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; letter-spacing: -0.42px; flex-shrink: 0; }
+    .fcs-screen-title { font-size: 24px; font-weight: 600; letter-spacing: -0.72px; line-height: 32px; color: #1a1a1a; }
+    .fcs-screen-desc { font-size: 18px; font-weight: 400; line-height: 26px; letter-spacing: -0.42px; color: #1a1a1a; }
+    @media (max-width: 768px) { .fcs-bridge { font-size: 24px; } }
+
+    /* FOOTER */
+    .pm-footer { width: 100%; max-width: 1026px; padding: 0; }
+    .pm-footer-text { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; }
+
+    /* HOVER */
+    .pm-project-link:hover .pm-project-title,
+    .pm-portfolio-link:hover .pm-link-text,
+    .pm-email-row:hover .pm-email-label,
+    .pm-social-link:hover .pm-link-text { text-decoration: none; }
+
+    /* &#9552;&#9552; FLOATING NAV &#9552;&#9552; */
+    .pm-nav { position: fixed; bottom: 10vh; left: 50%; transform: translateX(-50%); z-index: 9999; }
+    .pm-nav-track {
+      position: relative; display: flex; align-items: center; padding: 8px 4px;
+      background: linear-gradient(to bottom, rgba(34,34,34,0.9), rgba(17,17,17,0.9));
+      border: 1px solid rgba(0,0,0,0.8); border-radius: 114px;
+      backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+    }
+    .pm-nav-pill {
+      position: absolute; top: 8px; left: 8px; width: 48px; height: 48px;
+      border-radius: 100px; background: linear-gradient(to bottom, #111111, #000000);
+      border: 1px solid rgba(254,254,254,0.1); box-shadow: 0 0 16px rgba(254,60,1,0.15);
+      transition: transform 0.38s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: none;
+    }
+    .pm-nav-pill::after {
+      content: &#39;&#39;; position: absolute; left: 22px; top: 38px;
+      width: 2px; height: 2px; border-radius: 2px; background: #fe3c01;
+    }
+    .pm-nav-item {
+      position: relative; width: 56px; height: 48px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; flex-shrink: 0;
+    }
+    .pm-nav-item img, .pm-nav-item svg {
+      width: 20px; height: 20px; display: block; flex-shrink: 0;
+      position: relative; z-index: 1; opacity: 0.75;
+      color: #ffffff; stroke: #ffffff;
+      filter: none; transition: opacity 0.3s ease;
+    }
+    .pm-nav-item.active img, .pm-nav-item.active svg {
+      opacity: 1; color: #ffffff; stroke: #ffffff;
+    }
+    .pm-tooltip {
+      position: absolute; bottom: calc(100% + 14px); left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      background: #2a2a2a; color: #ffffff; font-family: &#39;TTHoves&#39;;
+      font-size: 11px; font-weight: 500; line-height: 1;
+      padding: 5px 9px; border-radius: 6px; white-space: nowrap;
+      pointer-events: none; opacity: 0;
+      transition: opacity 0.18s ease, transform 0.18s ease; z-index: 10;
+    }
+    .pm-tooltip::after {
+      content: &#39;&#39;; position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%); border: 5px solid transparent; border-top-color: #2a2a2a;
+    }
+    .pm-nav-item:hover .pm-tooltip { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    /* RESPONSIVE */
+    @media screen and (max-width: 800px) {
+      .pm-hero { align-items: flex-start; }
+      .pm-hero-text { flex: 0 0 336px; width: 336px; min-width: 336px; }
+      .pm-hero-photo { flex: 1 1 0; min-width: 0; align-self: flex-start; }
+    }
+    @media screen and (max-width: 990px) {
+      .pm-page { padding: 80px 44px 60px; }
+      .pm-hero-headline { font-size: 54px; }
+    }
+    @media screen and (max-width: 480px) {
+      .pm-page { padding: 60px 24px 40px; }
+      .pm-inner { gap: 64px; }
+      .pm-hero { flex-direction: column; gap: 32px; }
+      .pm-hero-text { width: 100%; min-width: 0; flex: auto; }
+      .pm-hero-photo { width: 100%; flex: none; }
+      .pm-row { flex-direction: column; gap: 24px; }
+      .pm-label { flex: none; max-width: none; }
+      .pm-socials-grid { gap: 24px; }
+      .pm-photos { flex-direction: column; }
+      .pm-photo { width: 100%; flex: none; }
+      .pm-photo img { width: 100%; height: auto; aspect-ratio: unset; object-fit: unset; }
+      /* Disable sticky on mobile &#8212; prevents overlap */
+      .pm-row--sticky .pm-label { position: static; top: auto; }
+      /* Nav closer to bottom edge on mobile */
+      .pm-nav { bottom: 5vh; }
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <b:section id='header' maxwidget='1' name='header' showadelement='no'/>
+
+  <!-- &#9552;&#9552; CONTENT: b:if on pageType (real Blogger variable) &#9552;&#9552; -->
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+
+    <!-- &#9472;&#9472; HOME &#9472;&#9472; -->
+    <div id='pm-content-wrap' style='opacity:1'><div class='pm-page'><div class='pm-inner'>
+
+      <section class='pm-hero'>
+        <div class='pm-hero-text'>
+          <p class='pm-hero-name'>Bishal Mistri</p>
+          <h1 class='pm-hero-headline'>I&#39;m contributing to a better future for all, by solving one problem at a time.</h1>
+        </div>
+        <div class='pm-hero-photo'>
+          <div class='pm-img-wrap'>
+            <img alt='Bishal Mistri' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGL6QC0v7cVomGVN4KJQFIjaNJvIAwKJ9egPZp4ZQh0Q0j13WYduByag4f3wnoGgJHMwJy159X-8tkKeu3cVuJY8YHhlLrhWM_gPV-lEgnzxL1Q1J-yu2qaPVdqNFoGwyt1rvzgxNRDuB9Fd1PZjza3DMUZNu3Lz2Yk26EuEVEXdTs43RpOy9obmoyEpM/s2102/New_formal%201.webp'/>
+          </div>
+        </div>
+      </section>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>About</div>
+        <div class='pm-content pm-story'>
+          <p class='pm-story-text'>I was born and raised in Ashoknagar, an urban town near Kolkata. From a very young age, I was deeply drawn to anything creative. Long before I knew what digital design was, I was constantly working with my hands making handmade crafts, painting, and drawing. For me, creativity wasn&#39;t just a hobby; it was my primary way of expressing myself and understanding the world around me. Those early days spent sketching and crafting from scratch laid the artistic foundation for the way I look at design today.</p>
+          <a class='pm-portfolio-link' href='/p/about.html'>
+            <span class='pm-link-text'>More about me</span>
+            <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+          </a>
+        </div>
+      </div>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Projects<br/>case study</div>
+        <div class='pm-content'>
+          <div class='pm-project-item'>
+            <a class='pm-project-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+              <div class='pm-project-title-row'>
+                <span class='pm-project-title'>Friender case study</span>
+                <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+              </div>
+              <span class='pm-project-meta'>Tier5 | B2B CRM</span>
+            </a>
+          </div>
+          <a class='pm-portfolio-link' href='/p/casestudy.html'>
+            <span class='pm-link-text'>All case study</span>
+            <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+          </a>
+        </div>
+      </div>
+
+    </div></div></div>
+
+  <b:else/>
+
+    <!-- &#9472;&#9472; STATIC PAGES &#8212; JS picks correct one by URL &#9472;&#9472; -->
+    <div id='pm-content-wrap' style='opacity:1'>
+    <!-- Case Study -->
+    <div class='pm-page' id='pm-cs' style='display:none'><div class='pm-inner'>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Projects<br/>case study</div>
+        <div class='pm-content'>
+          <div class='pm-cs-item'>
+            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+              <div class='pm-cs-title-row'>
+                <span class='pm-cs-title'>Friender case study</span>
+                <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+              </div>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+            </a>
+            <div class='pm-photos'>
+              <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/eeeeee/cccccc'/></div>
+              <div class='pm-photo'><img alt='Case study 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+              <div class='pm-photo'><img alt='Case study 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+            </div>
+          </div>
+          <div class='pm-cs-item'>
+            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
+              <div class='pm-cs-title-row'>
+                <span class='pm-cs-title'>RBG case study</span>
+                <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+              </div>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+            </a>
+            <div class='pm-photos'>
+              <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/eeeeee/cccccc'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div></div>
+
+    <!-- About -->
+    <div class='pm-page' id='pm-about' style='display:none'><div class='pm-inner'>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>About</div>
+        <div class='pm-content pm-story'>
+          <p class='pm-story-text'>I was born and raised in Ashoknagar, an urban town near Kolkata. From a very young age, I was deeply drawn to anything creative. Long before I knew what digital design was, I was constantly working with my hands making handmade crafts, painting, and drawing. For me, creativity wasn&#39;t just a hobby; it was my primary way of expressing myself and understanding the world around me. Those early days spent sketching and crafting from scratch laid the artistic foundation for the way I look at design today.</p>
+          <div class='pm-photos'>
+            <div class='pm-photo'><img alt='About photo 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+          </div>
+          <p class='pm-story-text'>My academic journey was a process of continuous exploration. A pivotal shift happened back in 2015, while I was in the 10th standard, when I got my first PC. As I spent more time online, I constantly ran into frustrating user issues and clunky websites. Because I&#39;ve always been someone who wants to fix things, I started looking into how I could solve these digital roadblocks myself. That curiosity led me directly to the world of UI/UX. Later, as I attended West Bengal State University (WBSU) and graduated with a degree in Arts, I realized I could perfectly combine my traditional artistic background with this new problem-solving mindset to fix the very issues I faced as a user. From there, I dove headfirst into learning the craft.</p>
+          <div class='pm-photos'>
+            <div class='pm-photo'><img alt='About photo 4' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 5' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 6' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+          </div>
+          <p class='pm-story-text'>Today, I bring that same childhood creativity and &quot;fixer&quot; mentality into my career as a UI/UX Designer. With over five years of professional experience working remotely, I specialize in transforming complex problems into seamless, user-centric digital products. My day-to-day focus ranges from architecting large-scale, scalable design systems in Figma for robust SaaS platforms to exploring innovative ways AI can streamline workflows for digital managers.</p>
+          <div class='pm-photos'>
+            <div class='pm-photo'><img alt='About photo 7' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 8' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+            <div class='pm-photo'><img alt='About photo 9' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275'/></div>
+          </div>
+        </div>
+      </div>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Bike Riding</div>
+        <div class='pm-content pm-story'>
+          <p class='pm-story-text'>Beyond the screen, I carry an entrepreneurial spirit and a love for adventure, often heading out on my Royal Enfield for solo trips to find fresh inspiration. Whether I am crafting a digital interface or exploring a new road, my goal is always to build meaningful, impactful experiences that connect with people.</p>
+          <div class='pm-photos'>
+            <div class='pm-photo'><img alt='Bike 1' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibLksTXBrlZBCdE-PAEjqUgG0sMpL2zKsPw1mTmAOBHBLYLv6bc9dJDlanNLVevMoFrmnsyrxPp0TbCV0Q8irp01NSYDPzSvSVwhPeOvwOBmhkfbjaSmBuT4u8MMHqlFS1NxncJcKxkqBobxLiITqY4jkQT0mYUqF8CbMZjP5eUPeJrRCQIboNHtWs6hI/s1776/F34F14EE-6D11-40F3-80AD-627E988D5991-720-000000321FB90406.jpg'/></div>
+            <div class='pm-photo'><img alt='Bike 2' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD8Zr1R3tKX1mdMPZheUt0uEeLt7DeNpzYunVV3HpHpUTN0EsJU4284Z9JP2fLh2kO70E8c1ztp4McNM53MgeJBFXYyTWccJGTWT22yQUF1zn6OoI9YazfW0xXhkKiOXzIcvVC7bpfiwTYVVSvPvocitlMN7ydLm9uVESwZkE9yw7QGTC703zFotJab1A/s1080/Enjoying%20a%20morning%20ride%20through%20Poduchey,%20taking%20in%20the%20sights%20and%20savoring%20some%20delicious%20food..jpg'/></div>
+            <div class='pm-photo'><img alt='Bike 3' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVSRiz1-lTUVWRO5knRqn7YXYmxnDTpvL_rAtOLtu5BdDlSsKBA3qjdBBrzZ5qWttuMitV76ddtbWdPiQ-68QdIC10LsUjrD40cJLtKtuutKXrCOyOCRFbw3ICysd17-gI1CBcI6ve4CJcs8QUnFL5Um74tQRZ-9nzMqQuww6mNz6-aKx6vBvSYtO82Q/s1339/Difficult%20Roads%20Lead%20to%20Beautiful%20Destinations%20%E2%9D%A4%EF%B8%8F.jpg'/></div>
+          </div>
+        </div>
+      </div>
+
+    </div></div>
+
+    <!-- Playground -->
+    <div class='pm-page' id='pm-play' style='display:none'><div class='pm-inner'>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Playground</div>
+        <div class='pm-content'>
+
+          <div class='pm-pg-item'>
+            <p class='pm-pg-title'>SmartRide &#8212; Smart Bike Mobile App</p>
+            <p class='pm-pg-desc'>SmartRide is a mobile application designed to provide seamless control, monitoring, and security features for smart bikes. The app allows users to remotely lock/unlock their bikes, track real-time location, monitor battery and performance metrics, and configure ride preferences. With an intuitive UI/UX, the app enhances user convenience and promotes safer, smarter, and more efficient biking experiences.</p>
+            <div class='pm-pg-image'>
+              <img alt='SmartRide smart bike app UI' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAP8mX1jfgXvE6o7mqYBz8c9FWKggXmdE4UdlCY9skynwmIeGW5mNOnOs1tQGmHle2Doza_G17ViHmk5ZjxDYb6nkBoCuRguwJ-WPPOBDUYnPOCdTph7dYpDx9eKJNdX3JajEt_dmBmC1VDkSLl1uIAAd7fDQk2OvRXpC4Jd1QaPTCFyXxFaX0zmB-opU/s3708/image_3.webp'/>
+            </div>
+          </div>
+
+          <div class='pm-pg-item'>
+            <p class='pm-pg-title'>Furniture Selling Website Landing Page Design</p>
+            <div class='pm-pg-image'>
+              <img alt='Furniture Selling Website Landing Page Design' decoding='async' loading='lazy' src='https://mir-s3-cdn-cf.behance.net/project_modules/2800_webp/18cf8a123261753.60eb096b589cc.png'/>
+            </div>
+          </div>
+
+          <div class='pm-pg-item'>
+            <p class='pm-pg-title'>Bike &amp; Car Rental Website</p>
+            <p class='pm-pg-desc'>Website for a bike and car rental company. The website should have a user-friendly interface that allows customers to easily browse and reserve vehicles online. The website should include features such as a search bar, filters for specific vehicle types and rental locations, and a booking system that allows users to select dates and times for their rental.</p>
+            <div class='pm-pg-image'>
+              <img alt='Bike and Car Rental Website Design' decoding='async' loading='lazy' src='https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/85aac1167517925.642ab47012054.png'/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div></div>
+
+    <!-- Friender Case Study Detail Page -->
+    <div class='pm-page' id='pm-friender' style='display:none'><div class='pm-inner'>
+      <div class='fcs-wrap'>
+
+        <h1 class='fcs-title'>Friender case study</h1>
+
+        <div class='fcs-meta'>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Project type</span><span class='fcs-meta-value'>B2B SaaS CRM</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>My role</span><span class='fcs-meta-value'>Product Designer</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Duration</span><span class='fcs-meta-value'>2 Weeks</span></div>
+          </div>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Team</span><span class='fcs-meta-value'>1 Designer, 1 PM, 4 Engineers</span></div>
+            <div class='fcs-meta-item'>
+              <span class='fcs-meta-label'>Tools</span>
+              <div class='fcs-tools'>
+                <img alt='Figma' src='https://www.figma.com/api/mcp/asset/ec1b4cc5-9484-4417-bbfe-40b10f3d83f2'/>
+                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/7d278539-b692-4a76-a116-c67221e4e74f'/>
+                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/e67d3916-4e68-4bb3-9478-43a8b5e73d4f'/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image 1: image -->
+          <div class='fcs-image'>
+            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/>
+          </div>
+
+        <!-- Item 1: title + single description -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>Friender case study</div>
+          <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+        </div>
+
+
+        <!-- Item 1-2: title + two-column description -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>What is Friender?</div>
+          <div class='fcs-desc-2col'>
+            <p>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</p>
+            <p>The software features built in intelligence capable of generating a full month&#8217;s worth of high-quality text and Image in minutes.</p>
+          </div>
+          <div class='fcs-desc-2col'>
+            <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
+            <p>It provides a comprehensive monthly calendar view to track the progression of various marketing campaigns.</p>
+          </div>
+          <div class='fcs-desc-2col'>
+            <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
+            <p>.</p>
+          </div>
+        </div>
+
+        <!-- Image 1: image -->
+          <div class='fcs-image'>
+            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+
+        <!-- Bridge text -->
+        <div class='fcs-bridge'>
+          Without further delay,<br/>
+          let&#39;s drive straight into the <u>solution</u>
+        </div>
+
+        <!-- Screen label -->
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>1</div>
+          <div class='fcs-screen-title'>Home screen</div>
+          <p class='fcs-screen-desc'>Post module, User can see all the live posts, and also can take necessary actions. plus create new post</p>
+        </div>
+
+        <!-- Item 2: title + two-column description + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>Friender case study</div>
+          <div class='fcs-desc-2col'>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          </div>
+          <div class='fcs-image'>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
+
+        <!-- Item 3: title + three stacked paragraphs + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>Friender case study</div>
+          <div class='fcs-desc-stack'>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          </div>
+          <div class='fcs-image'>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
+
+      </div>
+    </div></div>
+
+
+    <!-- RBG Case Study Detail Page -->
+    <div class='pm-page' id='pm-cs2' style='display:none'><div class='pm-inner'>
+      <div class='fcs-wrap'>
+
+        <h1 class='fcs-title'>RBG case study</h1>
+
+        <div class='fcs-meta'>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Project type</span><span class='fcs-meta-value'>B2B CRM</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>My role</span><span class='fcs-meta-value'>Product Designer</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Duration</span><span class='fcs-meta-value'>2 Weeks</span></div>
+          </div>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Team</span><span class='fcs-meta-value'>1 Designer, 1 PM, 4 Engineers</span></div>
+            <div class='fcs-meta-item'>
+              <span class='fcs-meta-label'>Tools</span>
+              <div class='fcs-tools'>
+                <img alt='Figma' src='https://www.figma.com/api/mcp/asset/ec1b4cc5-9484-4417-bbfe-40b10f3d83f2'/>
+                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/7d278539-b692-4a76-a116-c67221e4e74f'/>
+                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/e67d3916-4e68-4bb3-9478-43a8b5e73d4f'/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 1: title + single description + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>RBG case study</div>
+          <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          <div class='fcs-image'>
+            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
+
+        <!-- Bridge text -->
+        <div class='fcs-bridge'>
+          Without further delay,<br/>
+          let&#39;s drive straight into the <u>solution</u>
+        </div>
+
+        <!-- Screen label -->
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>1</div>
+          <div class='fcs-screen-title'>Home screen</div>
+          <p class='fcs-screen-desc'>Post module, User can see all the live posts, and also can take necessary actions. plus create new post</p>
+        </div>
+
+        <!-- Item 2: title + two-column description + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>RBG case study</div>
+          <div class='fcs-desc-2col'>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          </div>
+          <div class='fcs-image'>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
+
+        <!-- Item 3: title + three stacked paragraphs + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>RBG case study</div>
+          <div class='fcs-desc-stack'>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          </div>
+          <div class='fcs-image'>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
+
+      </div>
+    </div></div>
+
+    </div><!-- /pm-content-wrap -->
+
+  </b:if>
+
+
+  <!-- &#9552;&#9552; SHARED FOOTER &#8212; Resume, Contact, Footer (all pages) &#9552;&#9552; -->
+  <div class='pm-page' style='padding-top:0'>
+    <div class='pm-inner'>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Resume</div>
+        <div class='pm-content'>
+          <a class='pm-resume-link' href='https://raw.githubusercontent.com/bmistri321/resume/main/Bishal_Mistri_Resume_2026.pdf' rel='noopener' target='_blank'>
+            <span>Download</span>
+            <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+          </a>
+          <p class='pm-resume-desc'>My 2026 product design resume</p>
+        </div>
+      </div>
+
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Contact</div>
+        <div class='pm-content'>
+          <div class='pm-phone'>+91 7908903895</div>
+          <div class='pm-email-block'>
+            <a class='pm-email-row' href='mailto:hello@bishalmistri.com'>
+              <span class='pm-email-label'>hello@bishalmistri.com</span>
+              <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+            </a>
+            <p class='pm-email-desc'>I prefer to read email over other forms of communication. I usually don&#39;t respond to DMs on other platforms. Feel free to reach out.</p>
+          </div>
+          <div class='pm-socials-grid'>
+            <div class='pm-social-col'>
+              <a class='pm-social-link' href='https://instagram.com/bishalsphotos' rel='noopener' target='_blank'><span class='pm-link-text'>Instagram</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+              <a class='pm-social-link' href='#'><span class='pm-link-text'>Behance</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+            </div>
+            <div class='pm-social-col'>
+              <a class='pm-social-link' href='https://linkedin.com/in/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Linkedin</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+              <a class='pm-social-link' href='https://x.com/iambishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>X</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='pm-footer'>
+        <p class='pm-footer-text'>&#169; Bishal Mistri 2026. All rights reserved. | This website doesn&#39;t collect any cookies.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FLOATING NAV -->
+  <nav class='pm-nav'>
+    <div class='pm-nav-track'>
+      <div class='pm-nav-pill' id='pm-pill'/>
+      <div class='pm-nav-item' data-href='/' data-index='0'>
+        <span class='pm-tooltip'>Home</span>
+        <svg fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.75' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z'/><polyline points='9 21 9 12 15 12 15 21'/></svg>
+      </div>
+      <div class='pm-nav-item' data-href='/p/casestudy.html' data-index='1'>
+        <span class='pm-tooltip'>Case Study</span>
+        <svg fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.75' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><rect height='18' rx='1' width='7' x='3' y='3'/><rect height='7' rx='1' width='7' x='14' y='3'/><rect height='7' rx='1' width='7' x='14' y='14'/></svg>
+      </div>
+      <div class='pm-nav-item' data-href='/p/playground.html' data-index='2'>
+        <span class='pm-tooltip'>Playground</span>
+        <svg fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.75' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M12 19l7-7 3 3-7 7-3-3z'/><path d='M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z'/><path d='M2 2l7.586 7.586'/><circle cx='11' cy='11' r='2'/></svg>
+      </div>
+      <div class='pm-nav-item' data-href='/p/about.html' data-index='3'>
+        <span class='pm-tooltip'>About</span>
+        <svg fill='none' height='20' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.75' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2'/><circle cx='12' cy='7' r='4'/></svg>
+      </div>
+    </div>
+  </nav>
+
+  <!-- LIGHTBOX OVERLAY -->
+  <div class='pm-lightbox' id='pm-lightbox'>
+    <div class='pm-lightbox-inner' id='pm-lightbox-inner'>
+      <button aria-label='Close' class='pm-lightbox-close' id='pm-lightbox-close'>
+        <svg stroke-linecap='round' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+          <path d='M18 6L6 18M6 6l12 12'/>
+        </svg>
+      </button>
+      <button aria-label='Previous' class='pm-lightbox-prev' id='pm-lightbox-prev'>
+        <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+          <path d='M15 18l-6-6 6-6'/>
+        </svg>
+      </button>
+      <button aria-label='Next' class='pm-lightbox-next' id='pm-lightbox-next'>
+        <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+          <path d='M9 18l6-6-6-6'/>
+        </svg>
+      </button>
+      <img alt='Enlarged view' id='pm-lightbox-img' src=''/>
+    </div>
+  </div>
+
+  <script>//<![CDATA[
+
+  /* ── UNKNOWN URL REDIRECT — unrecognised pages go to home ── */
+  (function() {
+    var known = ['/', '/p/casestudy.html', '/p/about.html', '/p/playground.html', '/p/friender-case-study.html', '/p/case-study-2.html'];
+    var path  = window.location.pathname.toLowerCase();
+    var isKnown = known.some(function(k) {
+      return path === k || path === k.replace('.html', '');
+    });
+    if (!isKnown) { window.location.replace('/'); }
+  })();
+
+  /* ── PAGE ROUTER: show correct div by URL — runs before paint ── */
+  (function() {
+    var path = window.location.pathname.toLowerCase();
+    var id = null;
+    if      (path.indexOf('friender')    !== -1) id = 'pm-friender';
+    else if (path.indexOf('case-study-2') !== -1 || path.indexOf('casestudy2') !== -1 || path === '/p/case-study-2.html') id = 'pm-cs2';
+    else if (path.indexOf('casestudy')  !== -1) id = 'pm-cs';
+    else if (path.indexOf('playground') !== -1) id = 'pm-play';
+    else if (path.indexOf('about')      !== -1) id = 'pm-about';
+    if (id) {
+      var el = document.getElementById(id);
+      if (el) {
+        el.style.display = '';
+        el.style.visibility = 'visible';
+      }
+    }
+  })();
+
+  /* ── SKELETON LOADER ── */
+  (function() {
+    var imgs = document.querySelectorAll('img[loading="lazy"]');
+    imgs.forEach(function(img) {
+      var wrap = img.closest('.pm-img-wrap');
+      if (!wrap) return;
+      if (img.complete && img.naturalWidth > 0) { wrap.classList.add('pm-img-loaded'); return; }
+      img.addEventListener('load',  function() { wrap.classList.add('pm-img-loaded'); });
+      img.addEventListener('error', function() { wrap.classList.add('pm-img-loaded'); });
+    });
+  })();
+
+  /* ── LIGHTBOX with prev/next navigation ── */
+  (function() {
+    var lb      = document.getElementById('pm-lightbox');
+    var lbImg   = document.getElementById('pm-lightbox-img');
+    var lbClose = document.getElementById('pm-lightbox-close');
+    var lbPrev  = document.getElementById('pm-lightbox-prev');
+    var lbNext  = document.getElementById('pm-lightbox-next');
+
+    var images  = []; /* collected at open time [{src,alt}] */
+    var current = 0;
+
+    function collect() {
+      images = [];
+      document.querySelectorAll('.pm-pg-image img').forEach(function(el) {
+        images.push({ src: el.src, alt: el.alt || '' });
+      });
+    }
+
+    function show(idx) {
+      if (idx < 0 || idx >= images.length) return;
+      current   = idx;
+      lbImg.src = images[current].src;
+      lbImg.alt = images[current].alt;
+      if (lbPrev) {
+        lbPrev.style.opacity       = current > 0 ? '0.85' : '0.25';
+        lbPrev.style.pointerEvents = current > 0 ? 'auto' : 'none';
+      }
+      if (lbNext) {
+        lbNext.style.opacity       = current < images.length - 1 ? '0.85' : '0.25';
+        lbNext.style.pointerEvents = current < images.length - 1 ? 'auto' : 'none';
+      }
+    }
+
+    function open(src) {
+      collect();
+      var idx = 0;
+      for (var i = 0; i < images.length; i++) {
+        if (images[i].src === src) { idx = i; break; }
+      }
+      show(idx);
+      lb.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function close() {
+      lb.classList.remove('active');
+      document.body.style.overflow = '';
+      lbImg.src = '';
+    }
+
+    /* Click image to open */
+    document.addEventListener('click', function(e) {
+      var img = e.target.closest('.pm-pg-image img');
+      if (!img) return;
+      var isMobile = ('ontouchstart' in window) || window.matchMedia('(max-width: 480px)').matches;
+      if (isMobile) { window.open(img.src, '_blank'); }
+      else { open(img.src); }
+    });
+
+    /* Prev */
+    if (lbPrev) lbPrev.addEventListener('click', function(e) {
+      e.stopPropagation(); show(current - 1);
+    });
+
+    /* Next */
+    if (lbNext) lbNext.addEventListener('click', function(e) {
+      e.stopPropagation(); show(current + 1);
+    });
+
+    /* Close button */
+    if (lbClose) lbClose.addEventListener('click', close);
+
+    /* Backdrop click */
+    lb.addEventListener('click', function(e) { if (e.target === lb) close(); });
+
+    /* Keyboard */
+    document.addEventListener('keydown', function(e) {
+      if (!lb.classList.contains('active')) return;
+      if (e.key === 'Escape')     close();
+      if (e.key === 'ArrowLeft')  show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+  })();
+
+  /* ── SMOOTH SCROLL (desktop only) ── */
+  (function() {
+    var st = 0, sc = 0, ease = 0.08, raf = null, running = false;
+    function lerp(a,b,t){return a+(b-a)*t;}
+    function tick(){
+      sc=lerp(sc,st,ease);
+      if(Math.abs(st-sc)<0.5){sc=st;window.scrollTo(0,sc);running=false;raf=null;return;}
+      window.scrollTo(0,sc);raf=requestAnimationFrame(tick);
+    }
+    if(!('ontouchstart' in window)&&window.matchMedia('(min-width:481px)').matches){
+      window.addEventListener('wheel',function(e){
+        e.preventDefault();
+        st+=e.deltaY*1.2;
+        st=Math.max(0,Math.min(st,document.body.scrollHeight-window.innerHeight));
+        if(!running){sc=window.scrollY;running=true;if(raf)cancelAnimationFrame(raf);raf=requestAnimationFrame(tick);}
+      },{passive:false});
+    }
+  })();
+
+  /* ── FLOATING NAV ── */
+  (function() {
+    var items = document.querySelectorAll('.pm-nav-item');
+    var pill  = document.getElementById('pm-pill');
+    var W = 56;
+
+    function getIdx(path) {
+      path = path.toLowerCase();
+      /* friender and case-study-2 are sub-pages of case study — highlight nav item 1 */
+      if (path.indexOf('friender')     !== -1) return 1;
+      if (path.indexOf('case-study-2') !== -1) return 1;
+      if (path.indexOf('casestudy')    !== -1) return 1;
+      if (path.indexOf('playground')   !== -1) return 2;
+      if (path.indexOf('about')        !== -1) return 3;
+      return 0;
+    }
+
+    function setActive(idx) {
+      items.forEach(function(el,i){ el.classList.toggle('active', i===idx); });
+      pill.style.transform = 'translateX('+(idx*W)+'px)';
+    }
+
+    /* SPA: fetch page HTML, swap content, nav stays permanent */
+    var wrap = document.getElementById('pm-content-wrap');
+
+    function showPage(idx) {
+      ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'].forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+      });
+      var ids = [null,'pm-cs','pm-play','pm-about','pm-friender','pm-cs2'];
+      if (idx > 0 && ids[idx]) {
+        var el = document.getElementById(ids[idx]);
+        if (el) el.style.display = '';
+      }
+    }
+
+    /* Separate content routing from nav routing */
+    function getContentId(path) {
+      path = path.toLowerCase();
+      if (path.indexOf('friender')     !== -1) return 'pm-friender';
+      if (path.indexOf('case-study-2') !== -1) return 'pm-cs2';
+      if (path.indexOf('casestudy')    !== -1) return 'pm-cs';
+      if (path.indexOf('playground')   !== -1) return 'pm-play';
+      if (path.indexOf('about')        !== -1) return 'pm-about';
+      return null;
+    }
+
+    function navigateSPA(href, idx) {
+      setActive(idx);
+      if (wrap) { wrap.style.transition = 'opacity 0.18s ease'; wrap.style.opacity = '0'; }
+      fetch(href, { credentials: 'same-origin' })
+        .then(function(r) { return r.text(); })
+        .then(function(html) {
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var nw  = doc.getElementById('pm-content-wrap');
+          if (wrap && nw) { wrap.innerHTML = nw.innerHTML; }
+          /* Show correct content div using content router, not nav idx */
+          var contentId = getContentId(href);
+          ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'].forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) el.style.display = 'none';
+          });
+          if (contentId) {
+            var el = document.getElementById(contentId);
+            if (el) el.style.display = '';
+          }
+          history.pushState({ idx: idx, href: href }, '', href);
+          window.scrollTo(0, 0);
+          if (wrap) requestAnimationFrame(function() { wrap.style.opacity = '1'; });
+        })
+        .catch(function() { window.location.href = href; });
+    }
+
+    items.forEach(function(el) {
+      el.addEventListener('click', function() {
+        var idx  = parseInt(el.getAttribute('data-index'));
+        var href = el.getAttribute('data-href');
+        if (!href) return;
+        /* Allow navigation even if nav idx matches — user may be on a sub-page
+           e.g. on /p/friender-case-study.html clicking case study goes to /p/casestudy.html */
+        var currentPath = window.location.pathname.toLowerCase();
+        if (idx === getIdx(currentPath) && currentPath === href.toLowerCase()) return;
+        navigateSPA(href, idx);
+      });
+    });
+
+    window.addEventListener('popstate', function(e) {
+      if (e.state) { navigateSPA(e.state.href, e.state.idx); }
+      else { navigateSPA('/', 0); }
+    });
+
+    function initNav() {
+      var idx = getIdx(window.location.pathname);
+      pill.style.transition = 'none';
+      setActive(idx);
+      requestAnimationFrame(function(){
+        requestAnimationFrame(function(){ pill.style.transition = ''; });
+      });
+    }
+    initNav();
+
+  })();
+
+  //]]></script>
+
+</body>
+</html>
