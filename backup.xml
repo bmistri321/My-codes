@@ -276,15 +276,16 @@
     .fcs-meta { display: flex; gap: 40px; align-items: flex-start; }
     .fcs-meta-col { display: flex; flex-direction: column; gap: 30px; width: 276px; }
     .fcs-meta-item { display: flex; flex-direction: column; gap: 10px; }
-    .fcs-meta-label { font-size: 16px; font-weight: 500; color: #1a1a1a; letter-spacing: -0.48px; }
-    .fcs-meta-value { font-size: 16px; font-weight: 400; color: #1a1a1a; letter-spacing: -0.48px; }
+    .fcs-meta-item2 { display: flex; flex-direction: column; gap: 20px; }
+    .fcs-meta-label { font-size: 20px; font-weight: 500; color: #1a1a1a; letter-spacing: -0.48px; }
+    .fcs-meta-value { font-size: 18px; font-weight: 400; color: #1a1a1a; letter-spacing: -0.48px; }
     .fcs-tools { display: flex; gap: 10px; align-items: center; }
     .fcs-tools img { width: 22px; height: 22px; display: block; }
     .fcs-item { display: flex; flex-direction: column; gap: 30px; }
     .fcs-item-title { font-size: 20px; font-weight: 600; color: #000; line-height: 26px; }
     .fcs-desc-single { font-size: 18px; font-weight: 400; line-height: 26px; color: #000; }
     .fcs-desc-2col { display: flex; gap: 100px; align-items: flex-start; }
-    .fcs-desc-2col p { flex: 1; font-size: 18px; font-weight: 400; line-height: 26px; color: #000; text-align: justify; margin: 0; }
+    .fcs-desc-2col p { flex: 1; font-size: 18px; font-weight: 400; line-height: 26px; color: #000; text-align: left; margin: 0; }
     .fcs-desc-stack { display: flex; flex-direction: column; gap: 30px; }
     .fcs-desc-stack p { font-size: 18px; font-weight: 400; line-height: 26px; color: #000; margin: 0; }
     .fcs-image { width: 100%; height: auto; display: block; }
@@ -408,7 +409,7 @@
       <section class='pm-hero'>
         <div class='pm-hero-text'>
           <p class='pm-hero-name'>Bishal Mistri</p>
-          <h1 class='pm-hero-headline'>I&#39;m contributing to a better future for all, by solving one problem at a time.</h1>
+          <h1 class='pm-hero-headline'>I&#39;m micro observer, identifying micro pain points, design smarter, more efficient solutions.</h1>
         </div>
         <div class='pm-hero-photo'>
           <div class='pm-img-wrap'>
@@ -429,7 +430,7 @@
       </div>
 
       <div class='pm-row pm-row--sticky'>
-        <div class='pm-label'>Projects<br/>case study</div>
+        <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-project-item'>
             <a class='pm-project-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
@@ -457,7 +458,7 @@
     <div class='pm-page' id='pm-cs' style='display:none'><div class='pm-inner'>
 
       <div class='pm-row pm-row--sticky'>
-        <div class='pm-label'>Projects<br/>case study</div>
+        <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
             <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
@@ -467,10 +468,9 @@
               </div>
               <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
-            <div class='pm-photos'>
-              <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/eeeeee/cccccc'/></div>
-              <div class='pm-photo'><img alt='Case study 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
-              <div class='pm-photo'><img alt='Case study 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+            <div class='fcs-image'>
+              <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+              <img alt='Friender case study cover' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/></a>
             </div>
           </div>
           <div class='pm-cs-item'>
@@ -481,10 +481,9 @@
               </div>
               <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
-            <div class='pm-photos'>
-              <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/eeeeee/cccccc'/></div>
-              <div class='pm-photo'><img alt='RBG Case study 2' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
-              <div class='pm-photo'><img alt='RBG Case study 3' decoding='async' loading='lazy' src='https://via.placeholder.com/220x275/e8e8e8/cccccc'/></div>
+            <div class='fcs-image'>
+              <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
+              <img alt='RBG case study cover' decoding='async' loading='lazy' src='#'/></a>
             </div>
           </div>
         </div>
@@ -562,6 +561,7 @@
               <img alt='Bike and Car Rental Website Design' decoding='async' loading='lazy' src='https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/85aac1167517925.642ab47012054.png'/>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -592,11 +592,10 @@
           </div>
         </div>
 
-        <!-- Image 1: image -->
-          <div class='fcs-image'>
-            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
-            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/>
-          </div>
+        <!-- Cover image -->
+        <div class='fcs-image'>
+          <img alt='Case study cover' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/>
+        </div>
 
         <!-- Item 1: title + single description -->
         <div class='fcs-item'>
@@ -604,8 +603,7 @@
           <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
         </div>
 
-
-        <!-- Item 1-2: title + two-column description -->
+        <!-- What is Friender -->
         <div class='fcs-item'>
           <div class='fcs-item-title'>What is Friender?</div>
           <div class='fcs-desc-2col'>
@@ -618,15 +616,33 @@
           </div>
           <div class='fcs-desc-2col'>
             <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
-            <p>.</p>
+            <p>It allows users to strategically align their content distribution by choosing exactly where each post should appear for maximum impact.</p>
           </div>
         </div>
 
-        <!-- Image 1: image -->
-          <div class='fcs-image'>
-            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
-            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+        <!-- How friender helps users -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>How friender helps users?</div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>1. Convenience</span>
+              <span class='fcs-meta-value'>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>2. Immersive experience</span>
+              <span class='fcs-meta-value'>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>3. AI powered</span>
+              <span class='fcs-meta-value'>Through its monthly calendar view, Friedner helps you move from random posting to strategic campaigning. You can visualize your entire content pipeline, see how different campaigns overlap, and ensure your marketing efforts are progressing toward your business goals.</span>
+            </div>
           </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class='fcs-image'>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+        </div>
 
         <!-- Bridge text -->
         <div class='fcs-bridge'>
@@ -641,7 +657,7 @@
           <p class='fcs-screen-desc'>Post module, User can see all the live posts, and also can take necessary actions. plus create new post</p>
         </div>
 
-        <!-- Item 2: title + two-column description + image -->
+        <!-- Item 2: two-column description + image -->
         <div class='fcs-item'>
           <div class='fcs-item-title'>Friender case study</div>
           <div class='fcs-desc-2col'>
@@ -653,7 +669,7 @@
           </div>
         </div>
 
-        <!-- Item 3: title + three stacked paragraphs + image -->
+        <!-- Item 3: three paragraphs + image -->
         <div class='fcs-item'>
           <div class='fcs-item-title'>Friender case study</div>
           <div class='fcs-desc-stack'>
@@ -668,7 +684,6 @@
 
       </div>
     </div></div>
-
 
     <!-- RBG Case Study Detail Page -->
     <div class='pm-page' id='pm-cs2' style='display:none'><div class='pm-inner'>
@@ -687,7 +702,7 @@
             <div class='fcs-meta-item'>
               <span class='fcs-meta-label'>Tools</span>
               <div class='fcs-tools'>
-                <img alt='Figma' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+                <img alt='Figma' src='https://www.figma.com/api/mcp/asset/ec1b4cc5-9484-4417-bbfe-40b10f3d83f2'/>
                 <img alt='Tool' src='https://www.figma.com/api/mcp/asset/7d278539-b692-4a76-a116-c67221e4e74f'/>
                 <img alt='Tool' src='https://www.figma.com/api/mcp/asset/e67d3916-4e68-4bb3-9478-43a8b5e73d4f'/>
               </div>
@@ -701,7 +716,7 @@
           <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
           <div class='fcs-image'>
             <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
-            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+            <div class='fcs-image-empty'/>
           </div>
         </div>
 
@@ -726,7 +741,7 @@
             <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
           </div>
           <div class='fcs-image'>
-            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+            <div class='fcs-image-empty'/>
           </div>
         </div>
 
@@ -739,7 +754,7 @@
             <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
           </div>
           <div class='fcs-image'>
-            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+            <div class='fcs-image-empty'/>
           </div>
         </div>
 
@@ -1054,7 +1069,18 @@
             var el = document.getElementById(contentId);
             if (el) el.style.display = '';
           }
-          history.pushState({ idx: idx, href: href }, '', href);
+          /* Update browser tab title */
+          var titleMap = {
+            '/': 'Bishal Mistri — Product Designer',
+            '/p/casestudy.html': 'Case Study — Bishal Mistri',
+            '/p/about.html': 'About — Bishal Mistri',
+            '/p/playground.html': 'Playground — Bishal Mistri',
+            '/p/friender-case-study.html': 'Friender Case Study — Bishal Mistri',
+            '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
+          };
+          var normHref = href.toLowerCase().replace(/^https?:\/\/[^/]+/, '');
+          document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
+          history.pushState({ idx: idx, href: href }, document.title, href);
           window.scrollTo(0, 0);
           if (wrap) requestAnimationFrame(function() { wrap.style.opacity = '1'; });
         })
@@ -1075,8 +1101,19 @@
     });
 
     window.addEventListener('popstate', function(e) {
-      if (e.state) { navigateSPA(e.state.href, e.state.idx); }
-      else { navigateSPA('/', 0); }
+      if (e.state) {
+        var titleMap = {
+          '/': 'Bishal Mistri — Product Designer',
+          '/p/casestudy.html': 'Case Study — Bishal Mistri',
+          '/p/about.html': 'About — Bishal Mistri',
+          '/p/playground.html': 'Playground — Bishal Mistri',
+          '/p/friender-case-study.html': 'Friender Case Study — Bishal Mistri',
+          '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
+        };
+        var normHref = e.state.href ? e.state.href.toLowerCase().replace(/^https?:\/\/[^/]+/, '') : '/';
+        document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
+        navigateSPA(e.state.href, e.state.idx);
+      } else { navigateSPA('/', 0); }
     });
 
     function initNav() {
