@@ -1,0 +1,16 @@
+<!-- Item 1-2: title + two-column description -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>What is Friender?</div>
+          <div class='fcs-desc-2col'>
+            <p>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</p>
+            <p>The software features built in intelligence capable of generating a full month&#8217;s worth of high-quality text and Image in minutes.</p>
+          </div>
+          <div class='fcs-desc-2col'>
+            <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
+            <p>It provides a comprehensive monthly calendar view to track the progression of various marketing campaigns.</p>
+          </div>
+          <div class='fcs-desc-2col'>
+            <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
+            <p>.</p>
+          </div>
+        </div>
