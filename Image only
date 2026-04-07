@@ -1,0 +1,5 @@
+        <!-- Image 1: image -->
+          <div class='fcs-image'>
+            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example.png'/>
+          </div>
