@@ -1,0 +1,12 @@
+<!-- Item 3: title + three stacked paragraphs + image -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>RBG case study</div>
+          <div class='fcs-desc-stack'>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+            <p>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          </div>
+          <div class='fcs-image'>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
+          </div>
+        </div>
