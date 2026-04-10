@@ -306,6 +306,64 @@
     .fcs-screen-desc { font-size: 18px; font-weight: 400; line-height: 26px; letter-spacing: -0.42px; color: #1a1a1a; }
     @media (max-width: 768px) { .fcs-bridge { font-size: 24px; } }
 
+    /* &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;
+       EXPERIENCE &amp; EDUCATION
+       &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;
+       .pm-exp-row uses justify-content: space-between so the two
+       text nodes sit on opposite ends of the available width.
+       gap: 16px gives them breathing room when the row is narrow.
+       flex-wrap: nowrap on desktop/tablet &#8212; both items stay on one line.
+       On mobile (&#8804;480px) we let it wrap so long values drop gracefully.
+    &#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552;&#9552; */
+    .pm-exp-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding-bottom: 48px;
+      width: 100%;
+    }
+    .pm-exp-item:last-child { padding-bottom: 0; }
+
+    .pm-exp-row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      width: 100%;
+      gap: 16px;         /* auto gap &#8212; flex distributes remaining space */
+      flex-wrap: nowrap; /* keep both items on one line at tablet */
+    }
+
+    .pm-exp-title {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #000;
+      flex-shrink: 0; /* never shrink the title */
+    }
+    .pm-exp-type {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #000;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .pm-exp-meta {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #000;
+      flex-shrink: 0;
+    }
+    .pm-exp-location {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      color: #000;
+      text-align: right;
+      white-space: nowrap;
+    }
+
     /* FOOTER */
     .pm-footer { width: 100%; max-width: 1026px; padding: 0; }
     .pm-footer-text { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; }
@@ -364,16 +422,67 @@
     }
     .pm-nav-item:hover .pm-tooltip { opacity: 1; transform: translateX(-50%) translateY(0); }
 
-    /* RESPONSIVE */
-    @media screen and (max-width: 800px) {
+    /* &#9552;&#9552; RESPONSIVE &#9552;&#9552; */
+
+    /* &#9472;&#9472; TABLET HERO (481px &#8211; 800px) &#9472;&#9472; */
+    @media screen and (min-width: 481px) and (max-width: 800px) {
       .pm-hero { align-items: flex-start; }
       .pm-hero-text { flex: 0 0 336px; width: 336px; min-width: 336px; }
       .pm-hero-photo { flex: 1 1 0; min-width: 0; align-self: flex-start; }
     }
-    @media screen and (max-width: 990px) {
-      .pm-page { padding: 80px 44px 60px; }
-      .pm-hero-headline { font-size: 54px; }
+
+    /* &#9472;&#9472; TABLET (481px &#8211; 990px) &#9472;&#9472; */
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+      .pm-page { padding: 60px 40px 60px; }
+      .pm-inner { gap: 64px; max-width: 100%; }
+      .pm-hero-headline { font-size: 40px; line-height: 1.1; }
+
+      /* All section rows &#8212; stack vertically like mobile */
+      .pm-row { flex-direction: column; gap: 20px; }
+      .pm-label { flex: none; max-width: none; font-size: 22px; }
+
+      /* Content takes full width when row stacks */
+      .pm-content { width: 100%; flex: none; }
+
+      /* Exp rows span full content width */
+      .pm-exp-item { width: 100%; }
+      .pm-exp-row { width: 100%; }
+
+      /* Disable sticky labels on tablet &#8212; stacked rows */
+      .pm-row--sticky .pm-label { position: static; top: auto; }
+
+      /* Photos &#8212; keep 3 col but tighter gap */
+      .pm-photos { gap: 16px; }
+
+      /* Socials &#8212; single column */
+      .pm-socials-grid { grid-template-columns: 1fr; gap: 0; }
+
+      /* Case study */
+      .pm-cs-item { gap: 32px; }
+
+      /* Friender/RBG case study pages */
+      .fcs-wrap { gap: 64px; }
+      .fcs-title { font-size: 36px; }
+      .fcs-meta { flex-direction: column; gap: 24px; }
+      .fcs-desc-2col { flex-direction: column; gap: 20px; }
+      .fcs-bridge { font-size: 26px; }
+
+      /* Exp/edu &#8212; keep side-by-side on tablet, allow wrap only if truly needed */
+      .pm-exp-row {
+        flex-wrap: nowrap;
+        gap: 16px;
+      }
+      /* On narrow tablet the right-side text can still right-align */
+      .pm-exp-type, .pm-exp-location {
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      /* Nav */
+      .pm-nav { bottom: 5vh; }
     }
+
+    /* &#9472;&#9472; MOBILE (&#8804;480px) &#9472;&#9472; */
     @media screen and (max-width: 480px) {
       .pm-page { padding: 60px 24px 40px; }
       .pm-inner { gap: 64px; }
@@ -390,6 +499,19 @@
       .pm-row--sticky .pm-label { position: static; top: auto; }
       /* Nav closer to bottom edge on mobile */
       .pm-nav { bottom: 5vh; }
+      /* Exp/edu &#8212; wrap on mobile so long titles don&#39;t crush the right text */
+      .pm-exp-row {
+        flex-wrap: wrap;
+        gap: 4px;
+      }
+      .pm-exp-type, .pm-exp-location {
+        text-align: left;
+        white-space: normal;
+      }
+      /* Case study pages */
+      .fcs-desc-2col { flex-direction: column; gap: 20px; }
+      .fcs-meta { flex-direction: column; gap: 24px; }
+      .fcs-title { font-size: 32px; }
     }
 
   </style>
@@ -433,7 +555,7 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-project-item'>
-            <a class='pm-project-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+            <a class='pm-project-link' href='/p/friender-case-study.html'>
               <div class='pm-project-title-row'>
                 <span class='pm-project-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
@@ -461,29 +583,31 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+            <a class='pm-cs-link' href='/p/friender-case-study.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
               <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
-            <div class='fcs-image'>
-              <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
-              <img alt='Friender case study cover' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/></a>
+            <div class='pm-photos'>
+              <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
             </div>
           </div>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
+            <a class='pm-cs-link' href='/p/case-study-2.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>RBG case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
               <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
-            <div class='fcs-image'>
-              <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
-              <img alt='RBG case study cover' decoding='async' loading='lazy' src='#'/></a>
+            <div class='pm-photos'>
+              <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='RBG Case study 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
             </div>
           </div>
         </div>
@@ -515,6 +639,99 @@
             <div class='pm-photo'><img alt='About photo 8' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-8.webp'/></div>
             <div class='pm-photo'><img alt='About photo 9' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/About-img-9.webp'/></div>
           </div>
+        </div>
+      </div>
+
+      <!-- &#9472;&#9472; Experience (added to About page) &#9472;&#9472; -->
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Experience</div>
+        <div class='pm-content'>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>UI UX Designer</span>
+              <span class='pm-exp-type'>Full Time - Remote</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>Tier5 | Jan 2024 - Present</span>
+              <span class='pm-exp-location'>Ashoknagar Kalyangarh</span>
+            </div>
+          </div>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Junior UI UX Designer</span>
+              <span class='pm-exp-type'>Full Time - Hybrid</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>Tier5 | Apr 2022 - Dec 2023</span>
+              <span class='pm-exp-location'>Kolkata</span>
+            </div>
+          </div>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Trainee UI UX Designer</span>
+              <span class='pm-exp-type'>Full Time - Office</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>Tier5 | Jan 2021 - Mar 2022</span>
+              <span class='pm-exp-location'>Kolkata</span>
+            </div>
+          </div>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Intern UI UX Designer</span>
+              <span class='pm-exp-type'>Full Time - Remote</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>Tier5 | Feb 2021 - Apr 2021</span>
+              <span class='pm-exp-location'>Kolkata</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- &#9472;&#9472; Education (added to About page) &#9472;&#9472; -->
+      <div class='pm-row pm-row--sticky'>
+        <div class='pm-label'>Education</div>
+        <div class='pm-content'>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Gobardanga Hindu College</span>
+              <span class='pm-exp-type'>1st Sem. to 3rd Sem.</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>WBSU | 2017 - 2020</span>
+              <span class='pm-exp-location'>Gobardanga</span>
+            </div>
+          </div>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Ashoknagar Vivekananda Vidymandir</span>
+              <span class='pm-exp-type'>5th Std. to 12th Std.</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>WBCHSE | 2009 - 2016</span>
+              <span class='pm-exp-location'>Ashoknagar Kalyangarh</span>
+            </div>
+          </div>
+
+          <div class='pm-exp-item'>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-title'>Ashoknagar Prathmik Vidyalaya</span>
+              <span class='pm-exp-type'>KG to 4th Std.</span>
+            </div>
+            <div class='pm-exp-row'>
+              <span class='pm-exp-meta'>WBBPE | 2003 - 2008</span>
+              <span class='pm-exp-location'>Ashoknagar Kalyangarh</span>
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -715,7 +932,6 @@
           <div class='fcs-item-title'>RBG case study</div>
           <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
           <div class='fcs-image'>
-            <!-- Replace with: <img loading='lazy' decoding='async' alt='...' src='YOUR_GIT_IMAGE_URL'/> -->
             <div class='fcs-image-empty'/>
           </div>
         </div>
