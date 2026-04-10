@@ -555,7 +555,7 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-project-item'>
-            <a class='pm-project-link' href='/p/friender-case-study.html'>
+            <a class='pm-project-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
               <div class='pm-project-title-row'>
                 <span class='pm-project-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
@@ -583,7 +583,7 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='/p/friender-case-study.html'>
+            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
@@ -591,13 +591,13 @@
               <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
             <div class='pm-photos'>
-              <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
-              <div class='pm-photo'><img alt='RBG Case study 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
-              <div class='pm-photo'><img alt='RBG Case study 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='Case study 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
+              <div class='pm-photo'><img alt='Case study 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
             </div>
           </div>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='/p/case-study-2.html'>
+            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>RBG case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
@@ -983,7 +983,7 @@
 
 
   <!-- &#9552;&#9552; SHARED FOOTER &#8212; Resume, Contact, Footer (all pages) &#9552;&#9552; -->
-  <div class='pm-page' style='padding-top:0'>
+  <div class='pm-page' style='padding-top:36px'>
     <div class='pm-inner'>
 
       <div class='pm-row pm-row--sticky'>
