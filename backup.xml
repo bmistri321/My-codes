@@ -543,7 +543,7 @@
       <div class='pm-row pm-row--sticky'>
         <div class='pm-label'>About</div>
         <div class='pm-content pm-story'>
-          <p class='pm-story-text'>I was born and raised in Ashoknagar, an urban town near Kolkata. From a very young age, I was deeply drawn to anything creative. Long before I knew what digital design was, I was constantly working with my hands making handmade crafts, painting, and drawing. For me, creativity wasn&#39;t just a hobby; it was my primary way of expressing myself and understanding the world around me. Those early days spent sketching and crafting from scratch laid the artistic foundation for the way I look at design today.</p>
+          <p class='pm-story-text'>Product Designer with 5+ years of experience delivering end-to-end, user-centered digital experiences for B2B SaaS platforms serving US and global clients. Drove 18% annual sales increase and 26% boost in subscription renewals through data- informed design decisions on the Friender platform. Skilled in product discovery, systems thinking, and translating complex workflows into scalable, accessible solutions. Adept at stakeholder alignment, cross-functional collaboration (PM, Eng, QA), and shipping production-ready designs in agile environments.</p>
           <a class='pm-portfolio-link' href='/p/about.html'>
             <span class='pm-link-text'>More about me</span>
             <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
@@ -555,12 +555,12 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-project-item'>
-            <a class='pm-project-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+            <a class='pm-project-link' href='#'>
               <div class='pm-project-title-row'>
                 <span class='pm-project-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-project-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-project-meta'>(coming soon)</span>
             </a>
           </div>
           <a class='pm-portfolio-link' href='/p/casestudy.html'>
@@ -583,12 +583,12 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/friender-case-study.html'>
+            <a class='pm-cs-link' href='#'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-cs-meta'>(coming soon)</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -597,12 +597,12 @@
             </div>
           </div>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='https://www.bishalmistri.com/p/case-study-2.html'>
+            <a class='pm-cs-link' href='#'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>RBG case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-cs-meta'>(coming soon)</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -983,13 +983,13 @@
 
 
   <!-- &#9552;&#9552; SHARED FOOTER &#8212; Resume, Contact, Footer (all pages) &#9552;&#9552; -->
-  <div class='pm-page' style='padding-top:36px'>
+  <div class='pm-page' style='padding-top:0'>
     <div class='pm-inner'>
 
       <div class='pm-row pm-row--sticky'>
         <div class='pm-label'>Resume</div>
         <div class='pm-content'>
-          <a class='pm-resume-link' href='https://raw.githubusercontent.com/bmistri321/resume/main/Bishal_Mistri_Resume_2026.pdf' rel='noopener' target='_blank'>
+          <a class='pm-resume-link' href='https://raw.githack.com/bmistri321/resume/main/Bishal_Mistri_Resume_Final.pdf' rel='noopener' target='_blank'>
             <span>Download</span>
             <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
           </a>
@@ -1011,7 +1011,7 @@
           <div class='pm-socials-grid'>
             <div class='pm-social-col'>
               <a class='pm-social-link' href='https://instagram.com/bishalsphotos' rel='noopener' target='_blank'><span class='pm-link-text'>Instagram</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
-              <a class='pm-social-link' href='#'><span class='pm-link-text'>Behance</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+              <a class='pm-social-link' href='https://www.behance.net/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Behance</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
             </div>
             <div class='pm-social-col'>
               <a class='pm-social-link' href='https://linkedin.com/in/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Linkedin</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
