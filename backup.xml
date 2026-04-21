@@ -390,6 +390,18 @@
     .pm-footer { width: 100%; max-width: 1026px; padding: 0; }
     .pm-footer-text { font-weight: 400; font-size: 18px; line-height: 26px; color: #000; }
 
+    /* &#9472;&#9472; FOOTER BLOCK TOP SPACING &#9472;&#9472;
+       Overrides .pm-page&#39;s default 100px top padding to match the
+       pm-inner gap (96px desktop, 64px tablet/mobile) so the Resume
+       row looks like a natural section gap on every page. */
+    .pm-footer-block { padding: 36px 0 60px; }
+    @media screen and (min-width: 481px) and (max-width: 990px) {
+      .pm-footer-block { padding: 64px 40px 60px; }
+    }
+    @media screen and (max-width: 480px) {
+      .pm-footer-block { padding: 64px 24px 40px; }
+    }
+
     /* HOVER */
     .pm-project-link:hover .pm-project-title,
     .pm-portfolio-link:hover .pm-link-text,
@@ -476,8 +488,8 @@
       /* Photos &#8212; keep 3 col but tighter gap */
       .pm-photos { gap: 16px; }
 
-      /* Socials &#8212; single column */
-      .pm-socials-grid { grid-template-columns: 1fr; gap: 0; }
+      /* *** FIX: Socials grid stays 2-column on tablet (same as desktop) *** */
+      /* No override here &#8212; inherits desktop grid-template-columns: 1fr 1fr */
 
       /* Case study */
       .pm-cs-item { gap: 32px; }
@@ -580,7 +592,7 @@
         </div>
         <div class='pm-hero-photo'>
           <div class='pm-img-wrap'>
-            <img alt='Bishal Mistri' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/home.webp'/>
+            <img alt='Bishal Mistri' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/home.avif'/>
           </div>
         </div>
       </section>
@@ -785,9 +797,9 @@
         <div class='pm-content pm-story'>
           <p class='pm-story-text'>Beyond the screen, I carry an entrepreneurial spirit and a love for adventure, often heading out on my Royal Enfield for solo trips to find fresh inspiration. Whether I am crafting a digital interface or exploring a new road, my goal is always to build meaningful, impactful experiences that connect with people.</p>
           <div class='pm-photos'>
-            <div class='pm-photo'><img alt='Bike 1' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibLksTXBrlZBCdE-PAEjqUgG0sMpL2zKsPw1mTmAOBHBLYLv6bc9dJDlanNLVevMoFrmnsyrxPp0TbCV0Q8irp01NSYDPzSvSVwhPeOvwOBmhkfbjaSmBuT4u8MMHqlFS1NxncJcKxkqBobxLiITqY4jkQT0mYUqF8CbMZjP5eUPeJrRCQIboNHtWs6hI/s1776/F34F14EE-6D11-40F3-80AD-627E988D5991-720-000000321FB90406.jpg'/></div>
-            <div class='pm-photo'><img alt='Bike 2' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD8Zr1R3tKX1mdMPZheUt0uEeLt7DeNpzYunVV3HpHpUTN0EsJU4284Z9JP2fLh2kO70E8c1ztp4McNM53MgeJBFXYyTWccJGTWT22yQUF1zn6OoI9YazfW0xXhkKiOXzIcvVC7bpfiwTYVVSvPvocitlMN7ydLm9uVESwZkE9yw7QGTC703zFotJab1A/s1080/Enjoying%20a%20morning%20ride%20through%20Poduchey,%20taking%20in%20the%20sights%20and%20savoring%20some%20delicious%20food..jpg'/></div>
-            <div class='pm-photo'><img alt='Bike 3' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZVSRiz1-lTUVWRO5knRqn7YXYmxnDTpvL_rAtOLtu5BdDlSsKBA3qjdBBrzZ5qWttuMitV76ddtbWdPiQ-68QdIC10LsUjrD40cJLtKtuutKXrCOyOCRFbw3ICysd17-gI1CBcI6ve4CJcs8QUnFL5Um74tQRZ-9nzMqQuww6mNz6-aKx6vBvSYtO82Q/s1339/Difficult%20Roads%20Lead%20to%20Beautiful%20Destinations%20%E2%9D%A4%EF%B8%8F.jpg'/></div>
+            <div class='pm-photo'><img alt='Bike 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/bike_1.avif'/></div>
+            <div class='pm-photo'><img alt='Bike 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/bike_2.avif'/></div>
+            <div class='pm-photo'><img alt='Bike 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/bike_3.avif'/></div>
           </div>
         </div>
       </div>
@@ -1097,7 +1109,7 @@
 
 
   <!-- &#9552;&#9552; SHARED FOOTER &#8212; Resume, Contact, Footer (all pages) &#9552;&#9552; -->
-  <div class='pm-page' style='padding-top:36px'>
+  <div class='pm-page pm-footer-block'>
     <div class='pm-inner'>
 
       <div class='pm-row pm-row--sticky'>
