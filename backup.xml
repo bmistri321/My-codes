@@ -52,6 +52,23 @@
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; font-family: &#39;TTHoves&#39; !important; }
 
+    /* &#9472;&#9472; PAGE ENTRANCE ANIMATION &#9472;&#9472; */
+    @keyframes pm-rise {
+      from {
+        opacity: 0;
+        transform: translateY(32px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .pm-animate-in {
+      opacity: 0;
+      animation: pm-rise 0.62s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+
     /* &#9472;&#9472; SKELETON LOADER &#9472;&#9472; */
     @keyframes pm-skeleton-pulse {
       0%   { background-color: hsl(200, 15%, 82%); }
@@ -248,6 +265,10 @@
       stroke-linecap: round;
       stroke-linejoin: round;
     }
+
+
+
+
     /* Hide arrows on mobile */
     @media (max-width: 480px) {
       .pm-lightbox-prev, .pm-lightbox-next { display: none; }
@@ -273,6 +294,7 @@
     .fcs-wrap { width: 100%; display: flex; flex-direction: column; gap: 96px; }
     .fcs-wrap * { font-family: &#39;TTHoves&#39; !important; box-sizing: border-box; }
     .fcs-title { font-size: 50px; font-weight: 400; line-height: 1.1; color: #000; letter-spacing: -1px; }
+    .fcs-title u { font-weight: 600; text-underline-offset: 3px; }
     .fcs-meta { display: flex; gap: 40px; align-items: flex-start; }
     .fcs-meta-col { display: flex; flex-direction: column; gap: 30px; width: 276px; }
     .fcs-meta-item { display: flex; flex-direction: column; gap: 10px; }
@@ -298,9 +320,9 @@
     }
 
     /* BRIDGE TEXT + SCREEN LABEL */
-    .fcs-bridge { text-align: center; font-size: 34px; font-weight: 400; letter-spacing: -1.02px; line-height: 1.3; }
+    .fcs-bridge { text-align: center; font-size: 34px; font-weight: 400; letter-spacing: -1.02px; line-height: 1.3; margin: 150px 0 0 0;}
     .fcs-bridge u { font-weight: 600; text-underline-offset: 3px; }
-    .fcs-screen-label { display: flex; flex-direction: column; gap: 10px; }
+    .fcs-screen-label { display: flex; flex-direction: column; gap: 10px; margin: 40px 0;}
     .fcs-screen-num { width: 30px; height: 30px; border: 0.5px solid #606060; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; letter-spacing: -0.42px; flex-shrink: 0; }
     .fcs-screen-title { font-size: 24px; font-weight: 600; letter-spacing: -0.72px; line-height: 32px; color: #1a1a1a; }
     .fcs-screen-desc { font-size: 18px; font-weight: 400; line-height: 26px; letter-spacing: -0.42px; color: #1a1a1a; }
@@ -513,6 +535,29 @@
       .fcs-meta { flex-direction: column; gap: 24px; }
       .fcs-title { font-size: 32px; }
     }
+    /* border box */
+    .custom-box {
+      /* Border: 1px thickness, solid style, and your specific grey */
+      border: 1px solid #e0e0e0;
+  
+      /* Corners */
+      border-radius: 10px;
+
+      /* background color */
+      background-color: #f7f7f7;
+
+      /* Padding: 15px (Top/Bottom) 20px (Left/Right) */
+      padding: 15px 20px;
+
+      /* Margin: 0 for Top/Bottom, 30vh for Left/Right */
+      margin: 10px 1vh;
+
+      /* Ensures the box only takes up as much space as the text */
+      display: inline-block;
+  
+      /* Modern font stack */
+      font-family: system-ui, -apple-system, sans-serif;
+    }
 
   </style>
 
@@ -535,7 +580,7 @@
         </div>
         <div class='pm-hero-photo'>
           <div class='pm-img-wrap'>
-            <img alt='Bishal Mistri' decoding='async' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGL6QC0v7cVomGVN4KJQFIjaNJvIAwKJ9egPZp4ZQh0Q0j13WYduByag4f3wnoGgJHMwJy159X-8tkKeu3cVuJY8YHhlLrhWM_gPV-lEgnzxL1Q1J-yu2qaPVdqNFoGwyt1rvzgxNRDuB9Fd1PZjza3DMUZNu3Lz2Yk26EuEVEXdTs43RpOy9obmoyEpM/s2102/New_formal%201.webp'/>
+            <img alt='Bishal Mistri' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/home.webp'/>
           </div>
         </div>
       </section>
@@ -555,12 +600,12 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-project-item'>
-            <a class='pm-project-link' href='#'>
+            <a class='pm-project-link' href='/p/friender-case-study.html'>
               <div class='pm-project-title-row'>
                 <span class='pm-project-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-project-meta'>(coming soon)</span>
+              <span class='pm-project-meta'>Tier5 | B2B CRM</span>
             </a>
           </div>
           <a class='pm-portfolio-link' href='/p/casestudy.html'>
@@ -583,12 +628,12 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='#'>
+            <a class='pm-cs-link' href='/p/friender-case-study.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>(coming soon)</span>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -597,12 +642,12 @@
             </div>
           </div>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='#'>
+            <a class='pm-cs-link' href='/p/case-study-2.html'>
               <div class='pm-cs-title-row'>
                 <span class='pm-cs-title'>RBG case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>(coming soon)</span>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -712,7 +757,7 @@
 
           <div class='pm-exp-item'>
             <div class='pm-exp-row'>
-              <span class='pm-exp-title'>Ashoknagar Vivekananda Vidymandir</span>
+              <span class='pm-exp-title'>Ashoknagar Vivekananda<br/>Vidymandir</span>
               <span class='pm-exp-type'>5th Std. to 12th Std.</span>
             </div>
             <div class='pm-exp-row'>
@@ -788,7 +833,7 @@
     <div class='pm-page' id='pm-friender' style='display:none'><div class='pm-inner'>
       <div class='fcs-wrap'>
 
-        <h1 class='fcs-title'>Friender case study</h1>
+        <h1 class='fcs-title'>How my <u>AI</u> solution <u>saving</u> users <u>3 hours</u> a day</h1>
 
         <div class='fcs-meta'>
           <div class='fcs-meta-col'>
@@ -801,9 +846,12 @@
             <div class='fcs-meta-item'>
               <span class='fcs-meta-label'>Tools</span>
               <div class='fcs-tools'>
-                <img alt='Figma' src='https://www.figma.com/api/mcp/asset/ec1b4cc5-9484-4417-bbfe-40b10f3d83f2'/>
-                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/7d278539-b692-4a76-a116-c67221e4e74f'/>
-                <img alt='Tool' src='https://www.figma.com/api/mcp/asset/e67d3916-4e68-4bb3-9478-43a8b5e73d4f'/>
+                <img alt='Figma' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-figma.svg'/>
+                <img alt='claude' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-claude.svg'/>
+                <img alt='gemini' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-gemini.svg'/>
+                <img alt='hotjar' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-hotjar.svg'/>
+                <img alt='jira' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-jira.svg'/>
+                <img alt='zoom' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-zoom.svg'/>
               </div>
             </div>
           </div>
@@ -814,64 +862,125 @@
           <img alt='Case study cover' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/>
         </div>
 
-        <!-- Item 1: title + single description -->
+        <!-- Problem statement -->
         <div class='fcs-item'>
-          <div class='fcs-item-title'>Friender case study</div>
-          <p class='fcs-desc-single'>A design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI design about a Mobile Ai mockup UI</p>
+          <div class='fcs-item-title'>Problem statement</div>
+          <p class='fcs-desc-single'>
+            Implement a with AI something that help our users create and run campaign post efficiently through our platform. I have choose this problem statement as this challenge where I could show my Product design thinking efficiently
+          </p>
         </div>
 
         <!-- What is Friender -->
         <div class='fcs-item'>
           <div class='fcs-item-title'>What is Friender?</div>
           <div class='fcs-desc-2col'>
-            <p>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</p>
-            <p>The software features built in intelligence capable of generating a full month&#8217;s worth of high-quality text and Image in minutes.</p>
+            <p>Friender&#8217;s post scheduling and publishing posts automatically across personal profiles and Facebook Groups.</p>
+            <p>Freinder features built in AI intelligence capable of generating a full month&#8217;s worth of high quality text and Image in minutes.</p>
           </div>
           <div class='fcs-desc-2col'>
             <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
             <p>It provides a comprehensive monthly calendar view to track the progression of various marketing campaigns.</p>
           </div>
-          <div class='fcs-desc-2col'>
-            <p>Beyond just posting, it can actively interact with your audience by commenting on posts on your behalf.</p>
-            <p>It allows users to strategically align their content distribution by choosing exactly where each post should appear for maximum impact.</p>
-          </div>
         </div>
 
         <!-- How friender helps users -->
         <div class='fcs-item'>
-          <div class='fcs-item-title'>How friender helps users?</div>
+          <div class='fcs-item-title'>How Friender helps users?</div>
           <div class='fcs-desc-2col'>
             <div class='fcs-meta-item2'>
-              <span class='fcs-meta-label'>1. Convenience</span>
-              <span class='fcs-meta-value'>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</span>
+              <span class='fcs-meta-label'>Convenience</span>
+              <span class='fcs-meta-value'>Reduce time to create 30 days of content,  Reduce effort in thinking of ideas.</span>
             </div>
             <div class='fcs-meta-item2'>
-              <span class='fcs-meta-label'>2. Immersive experience</span>
-              <span class='fcs-meta-value'>It serves as a central hub for scheduling and publishing posts automatically across personal profiles and Facebook Groups.</span>
+              <span class='fcs-meta-label'>Consistency</span>
+              <span class='fcs-meta-value'>Ensure content consistency, Maintain brand tone automatically.</span>
+              <span class='fcs-meta-value'>Posting content on time Facebook without manual intervention or any delay.</span>
             </div>
             <div class='fcs-meta-item2'>
-              <span class='fcs-meta-label'>3. AI powered</span>
-              <span class='fcs-meta-value'>Through its monthly calendar view, Friedner helps you move from random posting to strategic campaigning. You can visualize your entire content pipeline, see how different campaigns overlap, and ensure your marketing efforts are progressing toward your business goals.</span>
+              <span class='fcs-meta-label'>AI Powered</span>
+              <span class='fcs-meta-value'>AI Quickly generate Intent based content and matching visuals.</span>
             </div>
           </div>
         </div>
 
-        <!-- Image 2 -->
-        <div class='fcs-image'>
-          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
-        </div>
-
-        <!-- Bridge text -->
+        <!-- Without further delay, let's drive straight into the solution -->
         <div class='fcs-bridge'>
           Without further delay,<br/>
           let&#39;s drive straight into the <u>solution</u>
         </div>
 
-        <!-- Screen label -->
+
+        <!-- 1. Home screen -->
+
+        <div class='fcs-image'>
         <div class='fcs-screen-label'>
           <div class='fcs-screen-num'>1</div>
-          <div class='fcs-screen-title'>Home screen</div>
-          <p class='fcs-screen-desc'>Post module, User can see all the live posts, and also can take necessary actions. plus create new post</p>
+          <div class='fcs-screen-title'>Post home screen</div>
+        </div>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
+        </div>
+        
+        <!-- 2. Post home screen -->
+
+        <div class='fcs-image'>
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>2</div>
+          <div class='fcs-screen-title'>Post home screen</div>
+        </div>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
+        </div>
+
+        <!-- 3. Home screen -->
+
+        <div class='fcs-image'>
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>3</div>
+          <div class='fcs-screen-title'>Post home screen</div>
+        </div>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
+        </div>
+
+        <!-- 4. Home screen -->
+
+        <div class='fcs-image'>
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>4</div>
+          <div class='fcs-screen-title'>Post home screen</div>
+        </div>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
+        </div>
+
+        <!-- 5. Home screen -->
+
+        <div class='fcs-image'>
+        <div class='fcs-screen-label'>
+          <div class='fcs-screen-num'>5</div>
+          <div class='fcs-screen-title'>Post home screen</div>
+        </div>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
+        </div>
+        
+        <!-- Image case-study-2 -->
+        <div class='fcs-image'>
+          <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-2.avif'/>
+        <div class='custom-box'>
+          After click on schedule user can directly open the Creation page. 
+        </div>
         </div>
 
         <!-- Item 2: two-column description + image -->
@@ -897,6 +1006,11 @@
           <div class='fcs-image'>
             <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/example-image.png'/>
           </div>
+        </div>
+        
+        <!-- Text box -->
+        <div class='custom-box'>
+          This is your styled text div.
         </div>
 
       </div>
@@ -983,7 +1097,7 @@
 
 
   <!-- &#9552;&#9552; SHARED FOOTER &#8212; Resume, Contact, Footer (all pages) &#9552;&#9552; -->
-  <div class='pm-page' style='padding-top:0'>
+  <div class='pm-page' style='padding-top:36px'>
     <div class='pm-inner'>
 
       <div class='pm-row pm-row--sticky'>
@@ -1011,7 +1125,7 @@
           <div class='pm-socials-grid'>
             <div class='pm-social-col'>
               <a class='pm-social-link' href='https://instagram.com/bishalsphotos' rel='noopener' target='_blank'><span class='pm-link-text'>Instagram</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
-              <a class='pm-social-link' href='https://www.behance.net/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Behance</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
+              <a class='pm-social-link' href='https://behance.net/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Behance</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
             </div>
             <div class='pm-social-col'>
               <a class='pm-social-link' href='https://linkedin.com/in/bishalmistri' rel='noopener' target='_blank'><span class='pm-link-text'>Linkedin</span><span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span></a>
@@ -1114,6 +1228,42 @@
       img.addEventListener('error', function() { wrap.classList.add('pm-img-loaded'); });
     });
   })();
+
+  /* ── PAGE ENTRANCE ANIMATION ── */
+  /* Finds the visible .pm-inner and stagger-animates its direct children */
+  function pmRunEntranceAnimation() {
+    /* Small delay so the browser has painted the newly visible content */
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        /* Target all visible .pm-inner containers */
+        var inners = document.querySelectorAll('.pm-inner');
+        inners.forEach(function(inner) {
+          /* Skip if inside a hidden page div */
+          var pageDiv = inner.closest('[id^="pm-"]');
+          if (pageDiv && pageDiv.style.display === 'none') return;
+
+          var children = Array.prototype.slice.call(inner.children);
+          children.forEach(function(child, i) {
+            /* Reset any previous animation state */
+            child.classList.remove('pm-animate-in');
+            child.style.animationDelay = '';
+            /* Force reflow so removing the class takes effect */
+            void child.offsetWidth;
+            /* Stagger: 80ms between each section, starting at 60ms */
+            child.style.animationDelay = (60 + i * 80) + 'ms';
+            child.classList.add('pm-animate-in');
+          });
+        });
+      });
+    });
+  }
+
+  /* Run on initial page load */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', pmRunEntranceAnimation);
+  } else {
+    pmRunEntranceAnimation();
+  }
 
   /* ── LIGHTBOX with prev/next navigation ── */
   (function() {
@@ -1266,8 +1416,74 @@
       return null;
     }
 
+    var titleMap = {
+      '/': 'Bishal Mistri — Product Designer',
+      '/p/casestudy.html': 'Case Study — Bishal Mistri',
+      '/p/about.html': 'About — Bishal Mistri',
+      '/p/playground.html': 'Playground — Bishal Mistri',
+      '/p/friender-case-study.html': 'Friender Case Study — Bishal Mistri',
+      '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
+    };
+
+    var allPageIds = ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'];
+
+    /* Show/hide existing DOM divs — no fetch needed when content is already in the DOM */
+    function showContentById(contentId) {
+      allPageIds.forEach(function(id) {
+        var el = document.getElementById(id);
+        if (el) el.style.display = 'none';
+      });
+      if (contentId) {
+        var el = document.getElementById(contentId);
+        if (el) el.style.display = '';
+      }
+    }
+
     function navigateSPA(href, idx) {
       setActive(idx);
+      var contentId = getContentId(href);
+      var normHref  = href.toLowerCase().replace(/^https?:\/\/[^/]+/, '');
+
+      /* ── CASE 1: navigating to HOME (/) ──
+         Home uses a different HTML structure (b:if index block), so if
+         pm-content-wrap doesn't contain a .pm-hero we must do a hard nav */
+      if (!contentId) {
+        /* Going to home — if we're already on a static page, the home
+           hero content is NOT in the DOM, so do a real navigation */
+        if (!document.querySelector('.pm-hero')) {
+          window.location.href = href;
+          return;
+        }
+        /* Already on home (hero exists), just update state */
+        allPageIds.forEach(function(id) {
+          var el = document.getElementById(id);
+          if (el) el.style.display = 'none';
+        });
+        document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
+        history.pushState({ idx: idx, href: href }, document.title, href);
+        window.scrollTo(0, 0);
+        pmRunEntranceAnimation();
+        return;
+      }
+
+      /* ── CASE 2: target content div already exists in the DOM ──
+         This covers all nav clicks while on any static page */
+      var targetEl = document.getElementById(contentId);
+      if (targetEl) {
+        if (wrap) { wrap.style.transition = 'opacity 0.18s ease'; wrap.style.opacity = '0'; }
+        showContentById(contentId);
+        document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
+        history.pushState({ idx: idx, href: href }, document.title, href);
+        window.scrollTo(0, 0);
+        requestAnimationFrame(function() {
+          if (wrap) wrap.style.opacity = '1';
+          pmRunEntranceAnimation();
+        });
+        return;
+      }
+
+      /* ── CASE 3: content not in DOM (navigating from home to a static page) ──
+         Fetch the static page and swap content */
       if (wrap) { wrap.style.transition = 'opacity 0.18s ease'; wrap.style.opacity = '0'; }
       fetch(href, { credentials: 'same-origin' })
         .then(function(r) { return r.text(); })
@@ -1275,30 +1491,12 @@
           var doc = new DOMParser().parseFromString(html, 'text/html');
           var nw  = doc.getElementById('pm-content-wrap');
           if (wrap && nw) { wrap.innerHTML = nw.innerHTML; }
-          /* Show correct content div using content router, not nav idx */
-          var contentId = getContentId(href);
-          ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'].forEach(function(id) {
-            var el = document.getElementById(id);
-            if (el) el.style.display = 'none';
-          });
-          if (contentId) {
-            var el = document.getElementById(contentId);
-            if (el) el.style.display = '';
-          }
-          /* Update browser tab title */
-          var titleMap = {
-            '/': 'Bishal Mistri — Product Designer',
-            '/p/casestudy.html': 'Case Study — Bishal Mistri',
-            '/p/about.html': 'About — Bishal Mistri',
-            '/p/playground.html': 'Playground — Bishal Mistri',
-            '/p/friender-case-study.html': 'Friender Case Study — Bishal Mistri',
-            '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
-          };
-          var normHref = href.toLowerCase().replace(/^https?:\/\/[^/]+/, '');
+          showContentById(contentId);
           document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
           history.pushState({ idx: idx, href: href }, document.title, href);
           window.scrollTo(0, 0);
           if (wrap) requestAnimationFrame(function() { wrap.style.opacity = '1'; });
+          pmRunEntranceAnimation();
         })
         .catch(function() { window.location.href = href; });
     }
@@ -1318,16 +1516,6 @@
 
     window.addEventListener('popstate', function(e) {
       if (e.state) {
-        var titleMap = {
-          '/': 'Bishal Mistri — Product Designer',
-          '/p/casestudy.html': 'Case Study — Bishal Mistri',
-          '/p/about.html': 'About — Bishal Mistri',
-          '/p/playground.html': 'Playground — Bishal Mistri',
-          '/p/friender-case-study.html': 'Friender Case Study — Bishal Mistri',
-          '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
-        };
-        var normHref = e.state.href ? e.state.href.toLowerCase().replace(/^https?:\/\/[^/]+/, '') : '/';
-        document.title = titleMap[normHref] || 'Bishal Mistri — Product Designer';
         navigateSPA(e.state.href, e.state.idx);
       } else { navigateSPA('/', 0); }
     });
