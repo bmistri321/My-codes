@@ -29,28 +29,34 @@
 
   <style>
 
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: italic; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: normal; font-display: block; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: italic; font-display: block; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: italic; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: normal; font-display: swap; }
+    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: italic; font-display: swap; }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; font-family: &#39;TTHoves&#39; !important; }
+    *, *::before, *::after { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+  font-family: &#39;TTHoves&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif !important; 
+}
+
 
     /* &#9472;&#9472; PAGE ENTRANCE ANIMATION &#9472;&#9472; */
     @keyframes pm-rise {
@@ -291,14 +297,14 @@
     .pm-pg-image img { width: 100%; height: auto; display: block; }
 
     /* FRIENDER CASE STUDY PAGE */
-    .fcs-wrap { width: 100%; display: flex; flex-direction: column; gap: 96px; }
+    .fcs-wrap { width: 100%; display: flex; flex-direction: column; gap: 96px; }a
     .fcs-wrap * { font-family: &#39;TTHoves&#39; !important; box-sizing: border-box; }
     .fcs-title { font-size: 50px; font-weight: 400; line-height: 1.1; color: #000; letter-spacing: -1px; }
     .fcs-title u { font-weight: 600; text-underline-offset: 3px; }
     .fcs-meta { display: flex; gap: 40px; align-items: flex-start; }
     .fcs-meta-col { display: flex; flex-direction: column; gap: 30px; width: 276px; }
     .fcs-meta-item { display: flex; flex-direction: column; gap: 10px; }
-    .fcs-meta-item2 { display: flex; flex-direction: column; gap: 20px; }
+    .fcs-meta-item2 { display: flex; flex-direction: column; gap: 20px; flex: 1 1 0; min-width: 0; }
     .fcs-meta-label { font-size: 20px; font-weight: 500; color: #1a1a1a; letter-spacing: -0.48px; }
     .fcs-meta-value { font-size: 18px; font-weight: 400; color: #1a1a1a; letter-spacing: -0.48px; }
     .fcs-tools { display: flex; gap: 10px; align-items: center; }
@@ -555,6 +561,8 @@
       .fcs-meta { flex-direction: column; gap: 24px; }
       .fcs-title { font-size: 32px; }
     }
+    /* HERO */
+    .pm-hero-headline { font-weight: 600; font-size: 50px; line-height: 1.05; color: #000; }
     /* border box */
     .custom-box {
       /* Border: 1px thickness, solid style, and your specific grey */
@@ -625,7 +633,7 @@
                 <span class='pm-project-title'>Friender case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-project-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-project-meta'>Tier5 | B2B CRM (Coming soon)</span>
             </a>
           </div>
           <a class='pm-portfolio-link' href='/p/casestudy.html'>
@@ -648,12 +656,26 @@
         <div class='pm-label'>Case study</div>
         <div class='pm-content'>
           <div class='pm-cs-item'>
-            <a class='pm-cs-link' href='/p/friender-case-study.html'>
+            <a class='pm-cs-link' href='/p/wexa.html'>
               <div class='pm-cs-title-row'>
-                <span class='pm-cs-title'>Friender case study</span>
+                <span class='pm-cs-title'>Wexa AI Onboarding Flow Redesign</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-cs-meta'>Independent UX Audit &amp; Concept Redesign</span>
+            </a>
+            <div class='pm-photos'>
+              <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-cover-1.avif'/></div>
+              <div class='pm-photo'><img alt='Case study 2' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-cover-2.avif'/></div>
+              <div class='pm-photo'><img alt='Case study 3' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-cover-3.avif'/></div>
+            </div>
+          </div>
+          <div class='pm-cs-item'>
+            <a class='pm-cs-link' href='/p/friender-case-study.html'>
+              <div class='pm-cs-title-row'>
+                <span class='pm-cs-title'>How my AI solution saving users 3 hours a day</span>
+                <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
+              </div>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM Case study</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -667,7 +689,7 @@
                 <span class='pm-cs-title'>RBG case study</span>
                 <span class='pm-arrow'><svg fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M5 12H19M19 12L13 6M19 12L13 18' stroke='#000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/></svg></span>
               </div>
-              <span class='pm-cs-meta'>Tier5 | B2B CRM</span>
+              <span class='pm-cs-meta'>Tier5 | B2B CRM (Coming soon)</span>
             </a>
             <div class='pm-photos'>
               <div class='pm-photo'><img alt='RBG Case study 1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/blank.webp'/></div>
@@ -849,6 +871,411 @@
 
     </div></div>
 
+    <!-- Wexa Case Study Detail Page -->
+    <div class='pm-page' id='pm-wexa' style='display:none'><div class='pm-inner'>
+      <div class='fcs-wrap'>
+
+        <h1 class='fcs-title'>Wexa AI <u>Onboarding</u> Flow Independent UX Audit and Improvised <u>Redesign</u></h1>
+
+        <!-- Cover image -->
+        <!--<div class='fcs-image'>
+          <img alt='Case study cover' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/case-study-cover-1.webp'/>
+        </div> -->
+        
+        <!-- Goal statement -->
+        <div class='fcs-item'>
+          <div class='fcs-item-title'>Goal statement</div>
+          <p class='fcs-desc-single'>
+            This is an independent concept case study created to identify usability issues and redesign the Wexa AI onboarding flow. The goal is to reduce friction, improve usability and accessibility, and create a more intuitive onboarding experience. This project is not affiliated with or commissioned by Wexa AI.
+          </p>
+        </div>
+        
+        <!-- Project details -->
+        <div class='fcs-meta'>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Project type</span><span class='fcs-meta-value'>UX Audit</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>My role</span><span class='fcs-meta-value'>UX Audit, UX Research, UI Design</span></div>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Duration</span><span class='fcs-meta-value'>2 Days</span></div>
+          </div>
+          <div class='fcs-meta-col'>
+            <div class='fcs-meta-item'><span class='fcs-meta-label'>Team</span><span class='fcs-meta-value'>1 Designer</span></div>
+            <div class='fcs-meta-item'>
+              <span class='fcs-meta-label'>Tools</span>
+              <div class='fcs-tools'>
+                <img alt='Figma' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-figma.svg'/>
+                <img alt='claude' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-claude.svg'/>
+                <img alt='gemini' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-gemini.svg'/>
+                <img alt='hotjar' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-hotjar.svg'/>
+                <img alt='jira' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-jira.svg'/>
+                <img alt='zoom' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/soft-img-zoom.svg'/>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cover image -->
+        <img alt='image-1' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-cover.avif'/>
+        
+        <!-- Without further delay, let's drive straight into the solution -->
+        <div class='fcs-bridge'>
+          UX <u>Audit</u>
+        </div>
+        <p class='fcs-desc-single'>During my audit of the existing onboarding flow, I identified several usability issues that increased cognitive load, created unnecessary friction, and made the setup process feel longer than necessary. I evaluated the experience using Nielsen&#39;s Heuristics, Jakob&#39;s Law, and established UX best practices.</p>
+
+        
+        <!-- Problem 1 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>1</div>
+              <div class='fcs-screen-title'>Problem: No Way to Go Back</div>
+              <p class='fcs-desc-single'>The onboarding flow doesn&#39;t allow users to revisit or modify their previous answers.</p>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-1.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why it Matters</span>
+              <span class='fcs-meta-value'>Users often refine their decisions as they learn more about the product. Without a way to go back, they may feel trapped, lose confidence in their choices, or restart the onboarding entirely.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principle</span>
+              <span class='fcs-meta-value'>Nielsen&#39;s Heuristic - User Control &amp; Freedom</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Impact</span>
+              <span class='fcs-meta-value'>- Reduced user confidence</span>
+              <span class='fcs-meta-value'>- Higher abandonment risk</span>
+              <span class='fcs-meta-value'>- Increased frustration</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Problem 2 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>2</div>
+              <div class='fcs-screen-title'>Problem: Split-Screen Onboarding Divides Attention</div>
+              <p class='fcs-desc-single'>The onboarding displays the questionnaire alongside a profile preview that appears interactive.</p>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-2.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why it Matters</span>
+              <span class='fcs-meta-value'>Users expect onboarding to focus on one task at a time. The preview competes for attention and suggests interactions that aren&#39;t available, creating unnecessary cognitive load and confusion.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principle</span>
+              <span class='fcs-meta-value'>- Jakob&#39;s Law</span>
+              <span class='fcs-meta-value'>- Progressive Disclosure</span>
+              <span class='fcs-meta-value'>- False Affordance</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Impact</span>
+              <span class='fcs-meta-value'>- Divided attention</span>
+              <span class='fcs-meta-value'>- Increased cognitive load</span>
+              <span class='fcs-meta-value'>- Confusing onboarding experience</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Problem 3 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>3</div>
+              <div class='fcs-screen-title'>Problem: Conversational Layout Creates Visual Noise</div>
+              <p class='fcs-desc-single'>Questions are presented in a chat-style interface, showing previous messages throughout the onboarding process.</p>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-3.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why it Matters</span>
+              <span class='fcs-meta-value'>While conversational layouts work well for messaging apps, onboarding benefits from a structured, step-by-step flow. Displaying previous questions adds visual clutter without helping users complete the task.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principle</span>
+              <span class='fcs-meta-value'>- Aesthetic &amp; Minimalist Design</span>
+              <span class='fcs-meta-value'>- Progressive Disclosure</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Impact</span>
+              <span class='fcs-meta-value'>- Harder to scan information </span>
+              <span class='fcs-meta-value'>- Reduced focus</span>
+              <span class='fcs-meta-value'>- Longer completion time</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Problem 4 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>4</div>
+              <div class='fcs-screen-title'>Problem: Progress Indicator Lacks Context</div>
+              <p class='fcs-desc-single'>The onboarding only displays a progress bar without indicating the current step or the total number of steps.</p>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-4.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why it Matters</span>
+              <span class='fcs-meta-value'>Users are more comfortable completing tasks when they understand how much work remains. Without clear progress information, the process feels uncertain and potentially longer than it actually is.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principle</span>
+              <span class='fcs-meta-value'>- Visibility of System Status</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Impact</span>
+              <span class='fcs-meta-value'>- Increased onboarding anxiety </span>
+              <span class='fcs-meta-value'>- Higher drop-off rate</span>
+              <span class='fcs-meta-value'>- Lower user confidence</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Problem 5 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>5</div>
+              <div class='fcs-screen-title'>Problem: GitHub Integration Requires Manual Setup</div>
+              <p class='fcs-desc-single'>Users must generate a GitHub personal access token, copy it manually, and enter their username during setup.</p>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-5.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why it Matters</span>
+              <span class='fcs-meta-value'>Manual configuration increases effort and introduces opportunities for mistakes. A lengthy setup process can discourage users from completing onboarding, especially when simpler authentication methods are widely available.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principle</span>
+              <span class='fcs-meta-value'>- Reduce User Effort</span>
+              <span class='fcs-meta-value'>- Error Prevention</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Impact</span>
+              <span class='fcs-meta-value'>- Slower onboarding</span>
+              <span class='fcs-meta-value'>- Increased setup errors</span>
+              <span class='fcs-meta-value'>- Higher abandonment rate</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Re Design -->
+        <div class='fcs-bridge'>
+          Design <u>Strategy</u>
+        </div>
+        
+        <!-- Design strategy -->
+        <div class='fcs-item'>
+            <div class='fcs-screen-label'>
+              <p class='fcs-desc-single'>The UX audit revealed that the existing onboarding experience introduced unnecessary friction, divided users&#39; attention, and lacked a sense of control. Rather than addressing each issue individually, I established a set of design principles to guide every design decision. These principles ensured the redesigned experience remained consistent, user-centered, and aligned with established usability best practices.</p>
+            </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>One Task at a Time</span>
+              <span class='fcs-meta-value'>Manual configuration increases effort and introduces opportunities for mistakes. A lengthy setup process can discourage users from completing onboarding, especially when simpler authentication methods are widely available.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Give Users Control</span>
+              <span class='fcs-meta-value'>Users should always feel in control of their journey. I introduced clear navigation, including Previous, Skip, and Edit actions, allowing users to review, modify, or skip information without feeling trapped.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Reduce Cognitive Load</span>
+              <span class='fcs-meta-value'>The interface was simplified by removing unnecessary visual elements, improving information hierarchy, and progressively revealing content. This helps users process information more easily and complete tasks with less mental effort.</span>
+            </div>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Simplify Integrations</span>
+              <span class='fcs-meta-value'>Complex setup processes create friction during onboarding. Wherever possible, manual configuration was replaced with streamlined interactions, such as OAuth authentication, to reduce effort and minimize setup errors.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Build Trust Through Review Before Confirmation</span>
+              <span class='fcs-meta-value'>Instead of displaying an interactive-looking preview throughout the onboarding, I moved it to a dedicated review step. This gives users an opportunity to verify and edit their information before completion, increasing confidence without interrupting the question flow.</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Re Design -->
+        <div class='fcs-bridge'>
+          Redesign <u>Experience</u>
+        </div>
+        <p class='fcs-desc-single'>Applying the design strategy, I restructured the onboarding flow into a focused, step-by-step experience. Each design decision directly addresses a usability issue identified during the audit, creating a more intuitive and user-friendly onboarding journey.</p>
+
+
+        <!-- Solution 1 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>1</div>
+              <div class='fcs-screen-title'>Solution: Introduced a Focused, Step-by-Step Flow</div>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-new-1.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>What Changed</span>
+              <span class='fcs-meta-value'>- Redesigned the onboarding into a single-question-per-screen experience.</span>
+              <span class='fcs-meta-value'>- Removed the side-by-side profile preview from the onboarding flow.</span>
+              <span class='fcs-meta-value'>- Introduced a cleaner visual hierarchy with one clear primary action.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why</span>
+              <span class='fcs-meta-value'>Presenting one task at a time helps users focus on the current decision without unnecessary distractions. This approach aligns with familiar onboarding patterns and reduces cognitive load.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principles Applied</span>
+              <span class='fcs-meta-value'>- Jakob&#39;s Law</span>
+              <span class='fcs-meta-value'>- Progressive Disclosure</span>
+              <span class='fcs-meta-value'>- Aesthetic &amp; Minimalist Design</span>
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- Solution 2 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>2</div>
+              <div class='fcs-screen-title'>Solution: Introduced a Focused, Step-by-Step Flow</div>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-new-2.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>What Changed</span>
+              <span class='fcs-meta-value'>- Added Previous and Skip actions to every onboarding step.</span>
+              <span class='fcs-meta-value'>- Enabled users to navigate freely between steps without losing progress.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why</span>
+              <span class='fcs-meta-value'>Giving users control over their journey reduces anxiety and allows them to revisit or modify previous decisions whenever needed.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principles Applied</span>
+              <span class='fcs-meta-value'>- User Control &amp; Freedom</span>
+              <span class='fcs-meta-value'>- Error Prevention</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Solution 3 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>3</div>
+              <div class='fcs-screen-title'>Solution: Introduced a Focused, Step-by-Step Flow</div>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-new-3.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>What Changed</span>
+              <span class='fcs-meta-value'>- Added a progress indicator with explicit step numbers <br/>(e.g., Step 2 of 5).</span>
+              <span class='fcs-meta-value'>- Kept progress visible throughout the onboarding process.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why</span>
+              <span class='fcs-meta-value'>Displaying clear progress helps users understand how much of the onboarding remains, making the experience feel shorter and more predictable.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principles Applied</span>
+              <span class='fcs-meta-value'>- Visibility of System Status</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Solution 4 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>4</div>
+              <div class='fcs-screen-title'>Solution: Introduced a Focused, Step-by-Step Flow</div>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-new-4.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>What Changed</span>
+              <span class='fcs-meta-value'>- Replaced the manual GitHub Personal Access Token setup with OAuth authentication.</span>
+              <span class='fcs-meta-value'>- Eliminated the need to manually enter usernames and tokens.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why</span>
+              <span class='fcs-meta-value'>A one-click authentication flow significantly reduces setup effort, minimizes configuration errors, and creates a smoother onboarding experience.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principles Applied</span>
+              <span class='fcs-meta-value'>- Reduce User Effort</span>
+              <span class='fcs-meta-value'>- Error Prevention</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Solution 5 -->
+        <div class='fcs-item'>
+          <div class='fcs-image'>
+            <div class='fcs-screen-label'>
+              <div class='fcs-screen-num'>5</div>
+              <div class='fcs-screen-title'>Solution: Introduced a Focused, Step-by-Step Flow</div>
+            </div>
+            <img alt='Case study image' decoding='async' loading='lazy' src='https://cdn.jsdelivr.net/gh/bmistri321/Images-web@main/Img-wexa-new-5.avif'/>
+          </div>
+          <div class='fcs-desc-2col'>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>What Changed</span>
+              <span class='fcs-meta-value'>- Introduced a final review screen displaying all collected information.</span>
+              <span class='fcs-meta-value'>- Added Edit actions for each section, allowing users to make changes before completing setup.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>Why</span>
+              <span class='fcs-meta-value'>Separating the review process from the onboarding questions keeps users focused during setup while still providing an opportunity to verify and refine their information before submission.</span>
+            </div>
+            <div class='fcs-meta-item2'>
+              <span class='fcs-meta-label'>UX Principles Applied</span>
+              <span class='fcs-meta-value'>- User Control &amp; Freedom</span>
+              <span class='fcs-meta-value'>- Recognition Rather Than Recall</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Final Outcome -->
+        <div class='fcs-bridge'>
+          Final <u>Outcome</u>
+        </div>
+        
+         <p class='fcs-desc-single'>The redesigned onboarding transforms a conversation-based, multi-focus experience into a guided, step-by-step workflow. By applying established UX principles, the new design reduces cognitive load, simplifies setup, improves user control, and creates a more confident and intuitive onboarding experience.</p>
+        
+        
+        <!-- Expected Impact -->
+              <div class='fcs-desc-2col'>
+                <div class='fcs-meta-item2'>
+                  <span class='fcs-meta-label'>Expected Impact</span>
+                  <span class='fcs-meta-value'>- Reduced cognitive load through progressive disclosure.</span>
+                  <span class='fcs-meta-value'>- Improved user confidence with better navigation and review options.</span>
+                  <span class='fcs-meta-value'>- Faster onboarding by simplifying GitHub authentication.</span>
+                  <span class='fcs-meta-value'>- Improved user confidence with better navigation and review options.</span>
+                  <span class='fcs-meta-value'>- Clearer progress visibility, reducing uncertainty and drop-off.</span>
+                  <span class='fcs-meta-value'>- A more intuitive and predictable onboarding experience aligned with users&#39; expectations.</span>
+                </div>
+              </div>
+              
+        <div class='fcs-meta-item2'>
+                  <span class='fcs-meta-label'><b>Thank you</b> for visitng</span>
+                </div>
+        
+        
+      </div>
+    </div></div>
+      
     <!-- Friender Case Study Detail Page -->
     <div class='pm-page' id='pm-friender' style='display:none'><div class='pm-inner'>
       <div class='fcs-wrap'>
@@ -1211,7 +1638,7 @@
 
   /* ── UNKNOWN URL REDIRECT — unrecognised pages go to home ── */
   (function() {
-    var known = ['/', '/p/casestudy.html', '/p/about.html', '/p/playground.html', '/p/friender-case-study.html', '/p/case-study-2.html'];
+    var known = ['/', '/p/casestudy.html', '/p/about.html', '/p/playground.html', '/p/friender-case-study.html', '/p/case-study-2.html' , '/p/wexa.html'];
     var path  = window.location.pathname.toLowerCase();
     var isKnown = known.some(function(k) {
       return path === k || path === k.replace('.html', '');
@@ -1228,6 +1655,7 @@
     else if (path.indexOf('casestudy')  !== -1) id = 'pm-cs';
     else if (path.indexOf('playground') !== -1) id = 'pm-play';
     else if (path.indexOf('about')      !== -1) id = 'pm-about';
+    else if (path.indexOf('wexa')      !== -1) id = 'pm-wexa';
     if (id) {
       var el = document.getElementById(id);
       if (el) {
@@ -1400,6 +1828,7 @@
       if (path.indexOf('friender')     !== -1) return 1;
       if (path.indexOf('case-study-2') !== -1) return 1;
       if (path.indexOf('casestudy')    !== -1) return 1;
+      if (path.indexOf('wexa')         !== -1) return 1;
       if (path.indexOf('playground')   !== -1) return 2;
       if (path.indexOf('about')        !== -1) return 3;
       return 0;
@@ -1414,11 +1843,11 @@
     var wrap = document.getElementById('pm-content-wrap');
 
     function showPage(idx) {
-      ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'].forEach(function(id) {
+      ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2','pm-wexa'].forEach(function(id) {
         var el = document.getElementById(id);
         if (el) el.style.display = 'none';
       });
-      var ids = [null,'pm-cs','pm-play','pm-about','pm-friender','pm-cs2'];
+      var ids = [null,'pm-cs','pm-play','pm-about','pm-friender','pm-cs2','pm-wexa'];
       if (idx > 0 && ids[idx]) {
         var el = document.getElementById(ids[idx]);
         if (el) el.style.display = '';
@@ -1433,6 +1862,7 @@
       if (path.indexOf('casestudy')    !== -1) return 'pm-cs';
       if (path.indexOf('playground')   !== -1) return 'pm-play';
       if (path.indexOf('about')        !== -1) return 'pm-about';
+      if (path.indexOf('wexa')         !== -1) return 'pm-wexa';
       return null;
     }
 
@@ -1445,7 +1875,7 @@
       '/p/case-study-2.html': 'RBG Case Study — Bishal Mistri'
     };
 
-    var allPageIds = ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2'];
+    var allPageIds = ['pm-cs','pm-play','pm-about','pm-friender','pm-cs2','pm-wexa'];
 
     /* Show/hide existing DOM divs — no fetch needed when content is already in the DOM */
     function showContentById(contentId) {
