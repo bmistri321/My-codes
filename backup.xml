@@ -20,42 +20,17 @@
   <meta content='Bishal Mistri' name='author'/>
 
   <b:skin><![CDATA[]]></b:skin>
-
-  <!-- Preload key TTHoves weights to prevent flash of unstyled text -->
-  <link as='font' crossorigin='anonymous' href='https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2' rel='preload' type='font/woff2'/>
-  <link as='font' crossorigin='anonymous' href='https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2' rel='preload' type='font/woff2'/>
-
-  <!-- TTHoves font served via jsDelivr from github.com/bmistri321/web-fonts -->
+  
+  <!-- Google Fonts CDN link for Google Sans Flex -->
+  <link href='https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@100..900&amp;display=swap' rel='stylesheet'/>
 
   <style>
-
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Hairline.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-HairlineItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 100; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Thin.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ThinItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 200; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLight.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraLightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 275; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Light.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-LightItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 300; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Regular.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Italic.woff&#39;) format(&#39;woff&#39;); font-weight: 400; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Medium.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-MediumItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 500; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBold.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-DemiBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 600; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Bold.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 700; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBold.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-ExtraBoldItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 800; font-style: italic; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-Black.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: normal; font-display: swap; }
-    @font-face { font-family: &#39;TTHoves&#39;; src: url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff2&#39;) format(&#39;woff2&#39;), url(&#39;https://cdn.jsdelivr.net/gh/bmistri321/web-fonts@main/TTHoves-BlackItalic.woff&#39;) format(&#39;woff&#39;); font-weight: 900; font-style: italic; font-display: swap; }
-
     *, *::before, *::after { 
-  box-sizing: border-box; 
-  margin: 0; 
-  padding: 0; 
-  font-family: &#39;TTHoves&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif !important; 
-}
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+      font-family: &#39;Google Sans Flex&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif !important; 
+    }
 
 
     /* &#9472;&#9472; PAGE ENTRANCE ANIMATION &#9472;&#9472; */
@@ -101,7 +76,7 @@
     img { display: block; max-width: 100%; }
 
     body {
-      font-family: &#39;TTHoves&#39; !important;
+      font-family: &#39;Google Sans Flex&#39; !important;
       background: #ffffff; color: #000000;
       -webkit-font-smoothing: antialiased;
     }
@@ -298,7 +273,7 @@
 
     /* FRIENDER CASE STUDY PAGE */
     .fcs-wrap { width: 100%; display: flex; flex-direction: column; gap: 96px; }a
-    .fcs-wrap * { font-family: &#39;TTHoves&#39; !important; box-sizing: border-box; }
+    .fcs-wrap * { font-family: &#39;Google Sans Flex&#39; !important; box-sizing: border-box; }
     .fcs-title { font-size: 50px; font-weight: 400; line-height: 1.1; color: #000; letter-spacing: -1px; }
     .fcs-title u { font-weight: 600; text-underline-offset: 3px; }
     .fcs-meta { display: flex; gap: 40px; align-items: flex-start; }
@@ -450,7 +425,7 @@
     .pm-tooltip {
       position: absolute; bottom: calc(100% + 14px); left: 50%;
       transform: translateX(-50%) translateY(6px);
-      background: #2a2a2a; color: #ffffff; font-family: &#39;TTHoves&#39;;
+      background: #2a2a2a; color: #ffffff; font-family: &#39;Google Sans Flex&#39;;
       font-size: 11px; font-weight: 500; line-height: 1;
       padding: 5px 9px; border-radius: 6px; white-space: nowrap;
       pointer-events: none; opacity: 0;
@@ -1583,7 +1558,7 @@
       </div>
 
       <div class='pm-footer'>
-        <p class='pm-footer-text'>&#169; Bishal Mistri 2026. All rights reserved. | This website doesn&#39;t collect any cookies.</p>
+        <p class='pm-footer-text'>&#169; Bishal Mistri 2026. All rights reserved.</p>
       </div>
 
     </div>
